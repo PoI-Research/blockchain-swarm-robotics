@@ -31,7 +31,7 @@ endif(GALIB_FOUND)
 #find_package(GSL REQUIRED)
 
 # Find Lua
-find_package(Lua52 REQUIRED)
+find_package(Lua REQUIRED)
 
 # Set ARGoS include dir
 include_directories(${CMAKE_SOURCE_DIR} ${ARGOS_INCLUDE_DIRS} ${GSL_INCLUDE_DIR} ${LUA_INCLUDE_DIR})
@@ -44,4 +44,3 @@ add_subdirectory(controllers)
 
 # Descend into the loop_functions directory
 add_subdirectory(loop_functions)
-
