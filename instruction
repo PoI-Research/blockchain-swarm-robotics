@@ -1,0 +1,41 @@
+sudo apt-get install cmake libfreeimage-dev libfreeimageplus-dev \
+  qt5-default freeglut3-dev libxi-dev libxmu-dev liblua5.3-dev \
+  lua5.3 doxygen graphviz libgraphviz-dev asciidoc
+  
+  
+sudo apt-get install g++
+
+
+./scripts/install_argos.sh
+
+nano ~/.bashrc
+
+source /home/thivi/argos3-dist/bin/setup_argos3
+
+
+install go
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+
+./create-geths.sh
+
+sudo add-apt-repository ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install solc
+
+edit experiment file
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make
+
+Add export PATH=$PATH:/home/thivi/poi/blockchain-swarm-robotics/go-ethereum0/build/bin
+
+start experiment
+
