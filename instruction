@@ -13,10 +13,10 @@ nano ~/.bashrc
 source /home/thivi/argos3-dist/bin/setup_argos3
 
 
-install go
+install go 1.7.3
 
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
 
 
 ./create-geths.sh
@@ -24,6 +24,12 @@ export PATH=$PATH:$GOPATH/bin
 sudo add-apt-repository ppa:ethereum/ethereum
 sudo apt-get update
 sudo apt-get install solc
+
+install npm
+
+install solc@0.4.8
+
+install sendmail
 
 edit experiment file
 
@@ -38,4 +44,6 @@ make
 Add export PATH=$PATH:/home/thivi/poi/blockchain-swarm-robotics/go-ethereum0/build/bin
 
 start experiment
+
+
 
