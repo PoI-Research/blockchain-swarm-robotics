@@ -1,9 +1,9 @@
 # Usage: bash start_xyz.sh <node1> <node2> <decision_rule>
 
-BASE="$HOME/blockchain-swarm-robotics"
+BASE="$HOME/poi/blockchain-swarm-robotics"
 SCOUT="${BASE}/contracts/Byzantine.sol"
 USERNAME=`whoami`
-mailto='volker.strobel87@gmail.com'
+mailto='theviyathan@gmail.com'
 TEMPLATE='experiments/epuck_EC_locale_template.argos'
 OUTFILE="experiments/epuck$1.argos"
 BASEDIR="${BASE}/controllers/epuck_environment_classification/"
@@ -40,7 +40,7 @@ SUBSWARMCONSENSUS=false # Determines if all N robots have to agree or
 		       # only the beneficial subswarm.
 
 
-solc --overwrite --abi --bin -o . $SCOUT
+solcjs --overwrite --abi --bin -o . $SCOUT
 cp Byzantine.bin "${BASEDIR}/data.txt"
 cp Byzantine.abi "${BASEDIR}/interface.txt"
 
