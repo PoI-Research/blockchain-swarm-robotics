@@ -591,8 +591,9 @@ void CEnvironmentClassificationLoopFunctions::PreallocateEther() {
   }
 
   genesisBlockStream << removeSpace(minerAddressGlobal) << ": {\n\"balance\": \"100000000000000000000000\"\n}";
-
-  genesisBlockStream << "\n},\n\"coinbase\": \"0xcbfbd4c79728b83eb7c3aa50455a78ba724c53ae\",\n\"timestamp\": \"0x00\",\n\"parentHash\": \"0x0000000000000000000000000000000000000000000000000000000000000000\",\n\"extraData\": \"0x\",\n\"gasLimit\": \"0x8000000\"\n}";
+  genesisBlockStream << "\n},\n";
+  genesisBlockStream << "\"config\": {\n\"chainId\": 15,\n\"homesteadBlock\":0,\n\"eip150Block\":0,\n\"eip155Block\":0,\n\"eip158Block\":0,\n\"byzantiumBlock\":0,\n\"constantinopleBlock\":0,\n\"petersburgBlock\":0\n},";
+  genesisBlockStream << "\"coinbase\": \"0xcbfbd4c79728b83eb7c3aa50455a78ba724c53ae\",\n\"timestamp\": \"0x00\",\n\"parentHash\": \"0x0000000000000000000000000000000000000000000000000000000000000000\",\n\"extraData\": \"0x\",\n\"gasLimit\": \"0xfffffffffff\"\n}";
 
 
   string genesisBlock = genesisBlockStream.str();
