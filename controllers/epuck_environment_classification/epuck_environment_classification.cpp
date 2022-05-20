@@ -77,6 +77,7 @@ void EPuck_Environment_Classification::SimulationState::Init(TConfigurationNode&
     GetNodeAttribute(t_node, "blockchain_path", blockchainPath);
     GetNodeAttribute(t_node, "base_port", basePort);
     GetNodeAttribute(t_node, "use_classical_approach", useClassicalApproach);
+    GetNodeAttribute(t_node, "consensus_algorithm", consensusAlgorithm);
     GetNodeAttribute(t_node, "regenerate_file", regenerateFile);
     GetNodeAttribute(t_node, "profiling", profiling);
   }

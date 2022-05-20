@@ -203,6 +203,7 @@ private:
 	int numByzantine;
 	int byzantineSwarmStyle;
 	bool useClassicalApproach;
+	std::string consensusAlgorithm;
 	bool subswarmConsensus;
 };
 

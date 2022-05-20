@@ -93,7 +93,7 @@ void CEnvironmentClassificationLoopFunctions::fillSettings(TConfigurationNode& t
       GetNodeAttribute(tEnvironment, "num_byzantine", numByzantine);
       GetNodeAttribute(tEnvironment, "byzantine_swarm_style", byzantineSwarmStyle);
       GetNodeAttribute(tEnvironment, "use_classical_approach", useClassicalApproach);
-      GetNodeAttribute(tEnvironment, "use_classical_approach", useClassicalApproach);
+      GetNodeAttribute(tEnvironment, "consensus_algorithm", consensusAlgorithm);
       GetNodeAttribute(tEnvironment, "subswarm_consensus", subswarmConsensus);
       GetNodeAttribute(tEnvironment, "regenerate_file", regenerateFile);
 
@@ -281,7 +281,10 @@ void CEnvironmentClassificationLoopFunctions::PreinitMiner() {
 
 /* Set up the miner, deploy the smart contract, etc. */
 void CEnvironmentClassificationLoopFunctions::InitEthereum() {
-
+  cout << "Chosen algorithm in loop: " + consensusAlgorithm;
+  if(consensusAlgorithm == "poi"){
+    cout << "Proof of Identity chosen!";
+  }
   ostringstream genesisRawStream;
   genesisRawStream << baseDirRaw << "/genesis/genesis1.json";
   string genesisRaw = genesisRawStream.str();
@@ -568,7 +571,10 @@ bool CEnvironmentClassificationLoopFunctions::InitRobots() {
 }
 
 void CEnvironmentClassificationLoopFunctions::PreallocateEther() {
-
+  cout << "Chosen algorithm in loop: " + consensusAlgorithm;
+  if(consensusAlgorithm == "poi"){
+    cout << "Proof of Identity chosen!";
+  }
   ostringstream genesisBlockStream;
 
   genesisBlockStream << "{\n\"nonce\": \"0x0000000000000001\",\n\"mixhash\": \"0x0000000000000000000000000000000000000000000000000000000000000000\",\n\"difficulty\": \"0x1000\",\n\"alloc\": {\n";

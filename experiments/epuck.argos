@@ -54,6 +54,7 @@
 			       base_port=""
 			       blockchain_path="/home/iridia/eth_data_para/data"
 			       use_classical_approach="false"
+             consensus_algorithm="pow"
 			       regenerate_file="/home/iridia/blockchain-swarm-robotics/regenerate.sh"
 			       percent_black="34"/> <!-- Sigma and G must be inserted in seconds, not in ticks; 
 							  1 = Voter model; 2 = Direct comparison; 3 = Majority Rule-->
@@ -102,6 +103,7 @@
 	  decision_rule=""
 	  base_port=""
 	  use_classical_approach="false"
+    consensus_algorithm="pow"
 	  num_byzantine="0"
 	  byzantine_swarm_style="0"
 	  subswarm_consensus="false"

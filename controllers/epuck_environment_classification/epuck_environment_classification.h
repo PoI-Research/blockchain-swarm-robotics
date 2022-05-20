@@ -85,6 +85,7 @@ public:
 	    UInt32 status;
 	    UInt32 LAMDA, turn;
 	    bool useClassicalApproach;
+       std::string consensusAlgorithm;
 	    UInt32 numRobots; /* total amount of robots in the experiment */
 	     void Init(TConfigurationNode& t_node);
 	  };
