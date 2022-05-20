@@ -1,5 +1,5 @@
 BASE=`pwd`
-git clone https://github.com/ethereum/go-ethereum.git
+git clone https://github.com/thivi/go-ethereum.git
 cd go-ethereum
 #git checkout eee96a5b
 #git checkout -b fixeddiff
