@@ -270,7 +270,7 @@ void EPuck_Environment_Classification::ControlStep() {
       // TODO: start_geth should be removed again; added it because of problem with kill geth
       start_geth(robotId, nodeInt, simulationParams.basePort, simulationParams.blockchainPath);
       unlockAccount(robotId, "test", nodeInt, simulationParams.basePort, simulationParams.blockchainPath); // TODO: Also remove again
-      start_mining_bg(robotId, 1, nodeInt, simulationParams.blockchainPath);
+      start_mining_bg(robotId, 1, nodeInt, simulationParams.blockchainPath, simulationParams.consensusAlgorithm);
       registerRobot(); // TODO: remove this again, it's not in the original code but I added it due to problems with the registration
       updateRegistration();
       stop_mining_bg(robotId, nodeInt, simulationParams.blockchainPath);
@@ -581,7 +581,7 @@ void EPuck_Environment_Classification::ConnectAndListen() {
     if (!mining) {
       cout << " START MINING -- robot" << robotId << endl;
       mining = true;
-      start_mining_bg(robotId, 1, nodeInt, simulationParams.blockchainPath);
+      start_mining_bg(robotId, 1, nodeInt, simulationParams.blockchainPath, simulationParams.consensusAlgorithm);
     }    	  
   }
 }
@@ -786,7 +786,7 @@ void EPuck_Environment_Classification::DecisionRule(UInt32 decision_rule)
   } else {
 
     int robotId = Id2Int(GetId());
-    //start_mining_bg(robotId, 1, nodeInt, simulationParams.blockchainPath);
+    //start_mining_bg(robotId, 1, nodeInt, simulationParams.blockchainPath, simulationParams.consensusAlgorithm);
     uint opinionInt = (uint) (opinion.quality * 100);
     int args[3] = {(int) decision_rule, (int) opinion.actualOpinion, (int) opinionInt};
     int emptyArgs[0] = {};

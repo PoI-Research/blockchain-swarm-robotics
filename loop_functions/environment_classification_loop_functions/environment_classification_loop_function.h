@@ -204,6 +204,7 @@ private:
 	int byzantineSwarmStyle;
 	bool useClassicalApproach;
 	std::string consensusAlgorithm;
+	std::string scURI;
 	bool subswarmConsensus;
 };
 

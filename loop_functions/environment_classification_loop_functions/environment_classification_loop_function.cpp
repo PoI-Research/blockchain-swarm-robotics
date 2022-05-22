@@ -96,6 +96,7 @@ void CEnvironmentClassificationLoopFunctions::fillSettings(TConfigurationNode& t
       GetNodeAttribute(tEnvironment, "consensus_algorithm", consensusAlgorithm);
       GetNodeAttribute(tEnvironment, "subswarm_consensus", subswarmConsensus);
       GetNodeAttribute(tEnvironment, "regenerate_file", regenerateFile);
+      GetNodeAttribute(tEnvironment, "sc_uri", scURI);
 
     }
   catch(CARGoSException& ex) {
@@ -259,7 +260,11 @@ void CEnvironmentClassificationLoopFunctions::PreinitMiner() {
   /* Change mining difficulty and rebuild geth */
 
   ostringstream genesisRawStream;
-  genesisRawStream << baseDirRaw << "/genesis/genesis1.json";
+  if(consensusAlgorithm == "poi"){
+    genesisRawStream << baseDirRaw << "/genesis/genesis1_poi.json";
+  } else {
+    genesisRawStream << baseDirRaw << "/genesis/genesis1.json";
+  }
   string genesisRaw = genesisRawStream.str();
 
   ostringstream genesisPathStream;
@@ -286,7 +291,12 @@ void CEnvironmentClassificationLoopFunctions::InitEthereum() {
     cout << "Proof of Identity chosen!";
   }
   ostringstream genesisRawStream;
-  genesisRawStream << baseDirRaw << "/genesis/genesis1.json";
+
+  if(consensusAlgorithm == "poi"){
+    genesisRawStream << baseDirRaw << "/genesis/genesis1_poi.json";
+  } else {
+    genesisRawStream << baseDirRaw << "/genesis/genesis1.json";
+  }
   string genesisRaw = genesisRawStream.str();
 
   ostringstream genesisPathStream;
@@ -305,7 +315,7 @@ void CEnvironmentClassificationLoopFunctions::InitEthereum() {
 
   minerAddress = getCoinbase(minerId, minerNode, basePort, blockchainPath);
 
-  start_mining(minerId, 4, minerNode, blockchainPath);
+  start_mining(minerId, 4, minerNode, blockchainPath, consensusAlgorithm);
 
   /* Deploy contract */
   string interfacePath = baseDirLoop + "interface.txt";
@@ -598,9 +608,14 @@ void CEnvironmentClassificationLoopFunctions::PreallocateEther() {
 
   genesisBlockStream << removeSpace(minerAddressGlobal) << ": {\n\"balance\": \"100000000000000000000000\"\n}";
   genesisBlockStream << "\n},\n";
-  genesisBlockStream << "\"config\": {\n\"chainId\": 15,\n\"homesteadBlock\":0,\n\"eip150Block\":0,\n\"eip155Block\":0,\n\"eip158Block\":0,\n\"byzantiumBlock\":0,\n\"constantinopleBlock\":0,\n\"petersburgBlock\":0\n},";
-  genesisBlockStream << "\"coinbase\": \"0xcbfbd4c79728b83eb7c3aa50455a78ba724c53ae\",\n\"timestamp\": \"0x00\",\n\"parentHash\": \"0x0000000000000000000000000000000000000000000000000000000000000000\",\n\"extraData\": \"0x\",\n\"gasLimit\": \"0xfffffffffff\"\n}";
+  genesisBlockStream << "\"config\": {\n\"chainId\": 15,\n\"homesteadBlock\":0,\n\"eip150Block\":0,\n\"eip155Block\":0,\n\"eip158Block\":0,\n\"byzantiumBlock\":0,\n\"constantinopleBlock\":0,\n\"petersburgBlock\":0";
+    if(consensusAlgorithm == "poi"){
+    genesisBlockStream << ",\n\"poi\":{\n\"numberOfRobots\":" << n_robots << ",\n\"swarmControllerURI\": \"" << scURI << "\"\n}";
+  }
 
+  genesisBlockStream << "\n},";
+
+  genesisBlockStream << "\"coinbase\": \"0xcbfbd4c79728b83eb7c3aa50455a78ba724c53ae\",\n\"timestamp\": \"0x00\",\n\"parentHash\": \"0x0000000000000000000000000000000000000000000000000000000000000000\",\n\"extraData\": \"0x\",\n\"gasLimit\": \"0xfffffffffff\"}";
 
   string genesisBlock = genesisBlockStream.str();
   ostringstream genesisPathStream;

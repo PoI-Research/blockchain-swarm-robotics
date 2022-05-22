@@ -44,7 +44,7 @@
 			       profiling="true"
 			       decision_rule="1"
 			       num_pack_saved="2"
-			       percent_white="66"
+			       percent_white="20"
 			       base_dir="/home/thivi/poi/blockchain-swarm-robotics/controllers/epuck_environment_classification/"
 			       use_multiple_nodes="true"
 			       use_background_geth_calls="true"
@@ -55,8 +55,9 @@
 			       blockchain_path="/home/thivi/eth_data_para0/data"
 			       use_classical_approach="false"
 			       regenerate_file="/home/thivi/poi/blockchain-swarm-robotics/regenerate0.sh"
-			       percent_black="34"
-             consensus_algorithm="poi"/> <!-- Sigma and G must be inserted in seconds, not in ticks; 
+			       percent_black="80"
+             consensus_algorithm="poi"
+             sc_uri="http://localhost:8080"/> <!-- Sigma and G must be inserted in seconds, not in ticks; 
 							  1 = Voter model; 2 = Direct comparison; 3 = Majority Rule-->
  
       </params>
@@ -68,13 +69,13 @@
   <cells  number_of_red_cells="0"
 	  base_dir_loop="/home/thivi/poi/blockchain-swarm-robotics/controllers/epuck_environment_classification/"
 	  base_dir_raw="/home/thivi/poi/blockchain-swarm-robotics"
-	  data_dir="data/experiment1_decision1-node0-21-05-2022/"
+	  data_dir="data/experiment1_decision1-node0-22-05-2022/"
           number_of_white_cells="0"
 	  number_of_black_cells="0"
 	  using_percentage="true"
-	  percent_white="66"
+	  percent_white="20"
 	  exit="true"            
-	  percent_black="34"
+	  percent_black="80"
 	  percent_red="0"
 	  save_every_ticks="1000"
 	  save_every_ticks_flag="false"
@@ -83,7 +84,7 @@
 	  save_every_robot_flag="false"
 	  save_every_quality_flag="false"
 	  save_global_stat_flag="false"
-	  radix="num2_black34_byz0_run1"
+	  radix="num2_black80_byz0_run1"
 	  number_of_robots="2"
 	  number_of_runs="1"
     number_of_qualities="2"
@@ -108,7 +109,8 @@
 	  subswarm_consensus="false"
 	  regenerate_file="/home/thivi/poi/blockchain-swarm-robotics/regenerate0.sh"
 	  blockchain_path="/home/thivi/eth_data_para0/data"
-    consensus_algorithm="poi"/>
+    consensus_algorithm="poi"
+    sc_uri="http://localhost:8080"/>
 
   </loop_functions>
   <!-- *********************** -->

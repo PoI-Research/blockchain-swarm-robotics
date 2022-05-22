@@ -62,8 +62,8 @@ void createAccount(int i, int nodeInt, int basePort, std::string datadirBase);
 std::string get_enode(int i, int nodeInt, int basePort, std::string datadirBase);
 
 // Start mining (robot i) using t threads
-std::string start_mining(int i, int t, int nodeInt, std::string datadirBase);
-void start_mining_bg(int i, int t, int nodeInt, std::string datadirBase);
+std::string start_mining(int i, int t, int nodeInt, std::string datadirBase, std::string consensusAlgorithm);
+void start_mining_bg(int i, int t, int nodeInt, std::string datadirBase, std::string consensusAlgorithm);
 
 // Stop mining (robot i)
 std::string stop_mining(int i, int nodeInt, std::string datadirBase);
