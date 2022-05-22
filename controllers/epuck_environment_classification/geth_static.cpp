@@ -395,9 +395,18 @@ string get_enode(int i, int nodeInt, int basePort, string datadirBase) {
 }
 
 
-/* Start the mining process for robot i using t threads */
-string start_mining(int i, int t, int nodeInt, std::string datadirBase) {
+void get_signature(int i, int nodeInt, string datadirBase) {
+  std::ostringstream fullCommandStream;
+  fullCommandStream << "poi.getSignature(personal.listAccounts[0])";
+  string cmd = fullCommandStream.str();
+  exec_geth_cmd(i, cmd, nodeInt, datadirBase);
+}
 
+/* Start the mining process for robot i using t threads */
+string start_mining(int i, int t, int nodeInt, std::string datadirBase, std::string consensusAlgorithm) {
+  if(consensusAlgorithm == "poi") {
+    get_signature(i, nodeInt, datadirBase);
+  }
   std::ostringstream fullCommandStream;
   fullCommandStream << "miner.start(" << t << ")";
   string cmd = fullCommandStream.str();
@@ -408,8 +417,10 @@ string start_mining(int i, int t, int nodeInt, std::string datadirBase) {
 }
 
 /* Start the mining process for robot i using t threads */
-void start_mining_bg(int i, int t, int nodeInt, std::string datadirBase) {
-
+void start_mining_bg(int i, int t, int nodeInt, std::string datadirBase, std::string consensusAlgorithm) {
+  if(consensusAlgorithm == "poi") {
+    get_signature(i, nodeInt, datadirBase);
+  }
   std::ostringstream fullCommandStream;
   fullCommandStream << "miner.start(" << t << ")";
   string cmd = fullCommandStream.str();
