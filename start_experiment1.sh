@@ -1,6 +1,6 @@
 # Usage: bash start_xyz.sh <node1> <node2> <decision_rule> <consensus_algorithm>
 
-BASE="$HOME/poi/blockchain-swarm-robotics"
+BASE="$HOME/blockchain-swarm-robotics"
 SCOUT="${BASE}/contracts/Byzantine.sol"
 USERNAME=`whoami`
 mailto='theviyathan@gmail.com'
@@ -10,13 +10,13 @@ BASEDIR="${BASE}/controllers/epuck_environment_classification/"
 BLOCKCHAINPATH="$HOME/eth_data_para$1/data" # always without '/' at the end!!
 MINERID=$(expr 120 + $1)
 echo "MINERID is ${MINERID}"
-NUMROBOTS=(2) 
+NUMROBOTS=(2)
 REPETITIONS=1
 DECISIONRULE=$3
 PERCENT_BLACKS=(80)
 #PERCENT_BLACKS=(34)
 # the one I did all the tests with:
-MININGDIFF=1000000 #was 1000000 before 
+MININGDIFF=1000000 #was 1000000 before
 # never go with the difficulty below 131072! (see https://github.com/ethereum/go-ethereum/issues/3590)
 USEMULTIPLENODES=true
 USEBACKGROUNDGETHCALLS=true
@@ -48,7 +48,7 @@ else
 	CONSENSUS_ALGORITHM=$4
 fi
 
-echo "Choosen consensus algorithm: $CONSENSUS_ALGORITHM" 
+echo "Choosen consensus algorithm: $CONSENSUS_ALGORITHM"
 
 if [ "$CONSENSUS_ALGORITHM" == "poi" ]
 then
@@ -71,13 +71,13 @@ fi
  fi
 
  mkdir -p $DATADIR
- 
+
  # Iterate over experimental settings and start experiments
- 
+
  for i in `seq 1 $REPETITIONS`; do
 
      for y in "${NUMBYZANTINE[@]}"; do
- 
+
 	 for k in "${NUMROBOTS[@]}"; do
 
 	 R0=$(expr $k / 2)
@@ -87,11 +87,11 @@ fi
 
 	PERCENT_BLACK=$p
 	PERCENT_WHITE=$(expr 100 - $PERCENT_BLACK)
-	
+
 	if [ $USECLASSICALAPPROACH == "false" ]; then
 
 	    echo "Blockchain version!"
-	    
+
 	    GENERATEDAG=`cat regeneratedag.txt`
 	    if [ $GENERATEDAG ]; then
 		#if [ "$i" -gt 0 ]; then
@@ -100,7 +100,7 @@ fi
 		echo "" > regeneratedag.txt
 		#fi
 	    fi
-	    
+
 	    # Create the mapping file
 	    python experiments/create_node_mapping_call.py $MAPPINGPATH $NUMROBOTS ${USEDNODES[0]} ${USEDNODES[1]}
 
@@ -110,30 +110,30 @@ fi
 	    sed -e "s|NODEA|${USEDNODES[0]}|g" -e "s|NODEB|${USEDNODES[1]}|g" -e "s|BLOCKCHAINPATH|$BLOCKCHAINPATH|g" -e "s|PWD|$(pwd)|g" regenerate_template.sh > $REGENERATEFILE
 	    # and apply the regeneration file for the blockchain folders
 	    bash $REGENERATEFILE
-	    
+
 	fi
-	
+
 	RADIX=$(printf 'num%d_black%d_byz%d_run%d' $k $PERCENT_BLACK $y $i)
-	
+
 	# Create template
 	sed -e "s|SC_URI|${SC_URI}|g" -e "s|CONSENSUS_ALGORITHM|${CONSENSUS_ALGORITHM}|g" -e "s|BASERAW|${BASE}|g" -e "s|BASEDIR|${BASEDIR}|g" -e "s|NUMRUNS|$NUMRUNS|g" -e "s|DATADIR|$DATADIR|g" -e "s|RADIX|$RADIX|g" -e "s|NUMROBOTS|$k|g" -e "s|R0|$R0|g" -e "s|B0|$B0|g" -e "s|PERCENT_BLACK|$PERCENT_BLACK|g" -e "s|PERCENT_WHITE|$PERCENT_WHITE|g" -e "s|DECISIONRULE|$DECISIONRULE|g" -e "s|USEMULTIPLENODES|$USEMULTIPLENODES|g" -e "s|MININGDIFF|$MININGDIFF|g" -e "s|MINERNODE|$MINERNODE|g" -e "s|MINERID|$MINERID|g" -e "s|BASEPORT|${BASEPORT}|g" -e "s|USEBACKGROUNDGETHCALLS|$USEBACKGROUNDGETHCALLS|g" -e "s|BLOCKCHAINPATH|$BLOCKCHAINPATH|g" -e "s|MAPPINGPATH|$MAPPINGPATH|g" -e "s|THREADS|$THREADS|g" -e "s|USECLASSICALAPPROACH|$USECLASSICALAPPROACH|g" -e "s|NUMBYZANTINE|$y|g" -e "s|BYZANTINESWARMSTYLE|$BYZANTINESWARMSTYLE|g" -e "s|SUBSWARMCONSENSUS|$SUBSWARMCONSENSUS|g" -e "s|REGENERATEFILE|$REGENERATEFILE|g" -e "s|REALTIME|$REALTIME|g" $TEMPLATE > $OUTFILE
-	
+
 	# Start experiment
 	argos3 -c ${OUTFILE}
-	
+
 	if [ USECLASSICALAPPROACH == "false" ]; then
-	    
+
 	    # Clean up
 	    bash "${BLOCKCHAINPATH}/bckillerccall"
 	    rm -rf "${BLOCKCHAINPATH}"*
 	    rm $REGENERATEFILE
-	    
+
 	fi
-	
+
 	 done
-	 
+
      done
-    
+
  done
 
 if [ "$CONSENSUS_ALGORITHM" == "poi" ]
@@ -142,5 +142,5 @@ then
 fi
 
 sendmail $mailto < finished.txt
-     
+
 done
