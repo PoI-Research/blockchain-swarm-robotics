@@ -8,3 +8,7 @@ first_version_report/
 nohup*.out
 data/
 .idea/
+regenerate*.sh
+genesis/genesis*.json
+experiments/config*.txt
+experiments/epuck*.argos
