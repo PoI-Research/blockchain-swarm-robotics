@@ -145,7 +145,7 @@ bool CEnvironmentClassificationLoopFunctions::CheckEtherReceived() {
 
     if (DEBUGLOOP)
       	cout << "Checking account balance. It is " << balance << std::endl;
-    
+
     if (balance == 0) {
       everyoneReceivedSomething = false; /* At least one robot did not receive ether */
       break;
@@ -189,7 +189,7 @@ void CEnvironmentClassificationLoopFunctions::connectMinerToEveryone() {
     int robotId = Id2Int(id);
 
     /* Make sure that the robot is connected */
-    string e = cController.getEnode();    
+    string e = cController.getEnode();
     cout << "enode in connecttominer is" << e << endl;
     add_peer(minerId, e, minerNode, basePort, blockchainPath);
   }
@@ -348,13 +348,19 @@ void CEnvironmentClassificationLoopFunctions::InitEthereum() {
   int l1 = getBlockChainLength(minerId, minerNode, blockchainPath);
   registerAllRobots();
   int l2;
+  int blockLength = 3;
+
+  if(consensusAlgorithm == "poi"){
+    blockLength = 0;
+  }
+
   do {
     l2 = getBlockChainLength(minerId, minerNode, blockchainPath);
     cout << "Checking BC length" << endl;
     sleep(1);
-    } while (l2 < (l1 + 3));
+    } while (l2 < (l1 + blockLength));
   stop_mining(minerId, minerNode, blockchainPath);
-  
+
   bool etherReceived;
   for (int t = 0; t < maxTime; ++t) {
 
@@ -499,10 +505,10 @@ bool CEnvironmentClassificationLoopFunctions::InitRobots() {
   if (byzantineSwarmStyle == 0) { // No Byzantine robots
     remainingByzantineWhites = 0;
     remainingByzantineBlacks = 0;
-  } else if (byzantineSwarmStyle == 1) { 
+  } else if (byzantineSwarmStyle == 1) {
     remainingByzantineWhites = numByzantine;
     remainingByzantineBlacks = 0;
-  } else if (byzantineSwarmStyle == 2  || byzantineSwarmStyle == 5) { 
+  } else if (byzantineSwarmStyle == 2  || byzantineSwarmStyle == 5) {
     remainingByzantineWhites = 0;
     remainingByzantineBlacks = numByzantine;
   } else if (byzantineSwarmStyle == 3) { // White + black Byzantine robots
@@ -541,7 +547,7 @@ bool CEnvironmentClassificationLoopFunctions::InitRobots() {
       //cout << "setting byz style 1" << endl;
       remainingByzantineWhites--;
     } else if (remainingByzantineBlacks > 0 && opinion.actualOpinion == 2) {
-      cController.setByzantineStyle(byzantineSwarmStyle); // always vote for white      
+      cController.setByzantineStyle(byzantineSwarmStyle); // always vote for white
       remainingByzantineBlacks--;
       //cout << "setting byz style 2" << endl;
     } else {
@@ -577,7 +583,7 @@ bool CEnvironmentClassificationLoopFunctions::InitRobots() {
   if (!useClassicalApproach) {
     /* Initialize miner, distribute ether, and more */
     InitEthereum();
-  }    
+  }
 }
 
 void CEnvironmentClassificationLoopFunctions::PreallocateEther() {
@@ -721,7 +727,7 @@ void CEnvironmentClassificationLoopFunctions::Init(TConfigurationNode& t_node) {
 	everyTicksFile << "clock\trun\texploringWhite\tdiffusingWhite\texploringGreen\tdiffusingGreen\texploringBlack\tdiffusingBlack\tbyzantineExploringWhite\tbyzantineDiffusingWhite\tbyzantineExploringGreen\tbyzantineDiffusingGreen\tbyzantineExploringBlack\tbyzantineDiffusingBlack\t" << std::endl;
 
       }
-      
+
       /* Blockchain Statistics */
       if((!useClassicalApproach) && blockChainFileFlag) {
 
@@ -825,25 +831,25 @@ bool CEnvironmentClassificationLoopFunctions::allSameBCHeight() {
 
     CEPuckEntity& cEpuck = *any_cast<CEPuckEntity*>(it->second);
     EPuck_Environment_Classification& cController =  dynamic_cast<EPuck_Environment_Classification&>(cEpuck.GetControllableEntity().GetController());
-    
+
     std::string id = cController.GetId();
     int robotNodeInt = cController.getNodeInt();
     int robotId = Id2Int(id);
-    
+
     /* Check one robot (the first one) */
     if (s == 0) {
       a = getBlockChainLength(robotId, robotNodeInt, blockchainPath);
     } else {
       b = getBlockChainLength(robotId, robotNodeInt, blockchainPath);
       if (abs(a - b) > 1) {
-	
+
 	cout << "a is " << a << " and b is " << b << endl;
 	canExit = false;
 	success = false;
 	break;
       }
     }
-    
+
     cout << "a is " << a << " and b is " << b << endl;
     s++;
   }
@@ -860,16 +866,16 @@ void CEnvironmentClassificationLoopFunctions::Reset() {
     // Kill all geth processes
     string bckiller = "bash " + blockchainPath + "/bckillerccall";
     exec(bckiller.c_str());
-    
+
     // Remove blockchain folders
     string rmBlockchainData = "rm -rf " + blockchainPath + "*";
     exec(rmBlockchainData.c_str());
-    
-    
+
+
     // Regenerate blockchain folders
     string regenerateFolders = "bash " + regenerateFile;
     exec(regenerateFolders.c_str());
-    
+
     }
   InitRobots();
 }
@@ -988,9 +994,9 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished() {
 	{
 
 	  blockChainFile << (GetSpace().GetSimulationClock()) / 10;
-	  
+
 	  string contractAddressNoSpace = contractAddress;
-	  
+
 	  contractAddressNoSpace.erase(std::remove(contractAddressNoSpace.begin(),
 						   contractAddressNoSpace.end(), '\n'),
 				       contractAddressNoSpace.end());
@@ -1014,7 +1020,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished() {
 	    if (!useClassicalApproach) {
 	      if (robotId == 2) {
 	      blockChainFile << "\t" << getBlockChainLength(robotId, robotNodeInt, blockchainPath);
-	      }	      
+	      }
 	    }
 	  }
 	  blockChainFile << std::endl;
@@ -1094,7 +1100,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished() {
 	    std::string nRuns = nRunsStream.str();
 
 	    if (number_of_runs<=0) {
-	      
+
 	      /* Close runsFile*/
 	      if(runsFile.is_open())
 		{
@@ -1110,17 +1116,17 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished() {
 	      }
 	      totalExploringTime = (Real)((Real)totalExploringTime/(Real)totalNumberOfExplorations);
 	      totalCountedCells=(Real)((Real)totalCountedCells/(Real)totalNumberOfExplorations);
-	      
+
 	      /* Close qualities file */
 	      if (everyQualityFile.is_open()){
 		everyQualityFile.close();
 	      }
-	      
+
 	      /* Close blockchain files */
 	      if (blockChainFile.is_open()){
 		blockChainFile.close();
 	      }
-	      
+
 	      /* globalStatFile: write the general statistics, such as counted cells,
 		 times of diffusing and exploring */
 	      if (globalStatFile.is_open()){
@@ -1133,7 +1139,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished() {
 		}
 		globalStatFile.close();
 	      }
-	      
+
 	      /* Set experimentFinished variable to true -> the experiment will terminate */
 	      m_bExperimentFinished = true;
 	    }
@@ -1172,32 +1178,32 @@ void CEnvironmentClassificationLoopFunctions::PreStep() {
      robotsInExplorationCounter[0] -> number of robots exploring with opinion red
      robotsInExplorationCounter[1] -> number of robots exploring with opinion green
      ... */
-  
+
   for ( UInt32 c=0; c<N_COL; c++ ){
     robotsInExplorationCounter[c] = 0;
     robotsInDiffusionCounter[c] = 0;
-    
+
     byzantineRobotsInExplorationCounter[c] = 0;
     byzantineRobotsInDiffusionCounter[c] = 0;
-    
+
   }
   CSpace::TMapPerType& m_cEpuck = GetSpace().GetEntitiesByType("epuck");
   for(CSpace::TMapPerType::iterator it = m_cEpuck.begin();it != m_cEpuck.end();++it){
     /* Get handle to e-puck entity and controller */
     CEPuckEntity& cEpuck = *any_cast<CEPuckEntity*>(it->second);
-    
+
     EPuck_Environment_Classification& cController =  dynamic_cast<EPuck_Environment_Classification&>(cEpuck.GetControllableEntity().GetController());
-    
-    
+
+
     Real x = cEpuck. GetEmbodiedEntity().GetOriginAnchor().Position.GetX(); // X coordinate of the robot
     Real y = cEpuck. GetEmbodiedEntity().GetOriginAnchor().Position.GetY(); // Y coordinate of the robot
-    
+
     CVector2 cPos;
     cPos.Set(x,y);						// Vector position of the robot
     /* Figure out in which cell (EG: which is the index of the array grid) the robot is */
     UInt32 cell = (UInt32) ((y+0.009)*10000)/(Real)ENVIRONMENT_CELL_DIMENSION;
     cell = (UInt32) 40*cell + ((x+0.009)*10000)/(Real)ENVIRONMENT_CELL_DIMENSION;
-		
+
     /* Get parameters of the robot: color, state, opinion and movement datas*/
     EPuck_Environment_Classification::CollectedData& collectedData = cController.GetColData();
     EPuck_Environment_Classification::SStateData& sStateData = cController.GetStateData();
@@ -1205,9 +1211,9 @@ void CEnvironmentClassificationLoopFunctions::PreStep() {
     EPuck_Environment_Classification::Opinion& opinion = cController.GetOpinion();
     std::string id = cController.GetId();
     EPuck_Environment_Classification::SimulationState& simulationParam = cController.GetSimulationState();
-    
+
     /* Update statistics about the robot opinions*/
-    
+
     bool isByzantine = (bool) cController.getByzantineStyle();
 
     UpdateStatistics(opinion, sStateData, isByzantine);
@@ -1215,7 +1221,7 @@ void CEnvironmentClassificationLoopFunctions::PreStep() {
       UpdateCount(collectedData, cell, cPos, opinion, sStateData, id, simulationParam);
     RandomWalk(movement);
   }
-  
+
   /* Check if a consensous has been reached (i.e.: if every robots agree with a colour) */
   for ( UInt32 c = 0; c < N_COL ; c++ ) {
 
@@ -1228,14 +1234,14 @@ void CEnvironmentClassificationLoopFunctions::PreStep() {
 	consensousReached = c;
     }
   }
-  
+
   /* EVERYTICKSFILE: Write this statistics only if the file is open and it's the right timeStep (multiple of timeStep) */
   if ( ! (GetSpace().GetSimulationClock() % timeStep) ) {
     if (everyTicksFile.is_open())
       {
 	everyTicksFile << (GetSpace().GetSimulationClock())/10 << "\t";
 	everyTicksFile << number_of_runs << "\t";
-	
+
 	for ( UInt32 c = 0; c < N_COL; c++ ) {
 	  everyTicksFile << robotsInExplorationCounter[c] << "\t\t" << robotsInDiffusionCounter[c]  << "\t\t";
 	}
@@ -1244,11 +1250,11 @@ void CEnvironmentClassificationLoopFunctions::PreStep() {
 	}
 	everyTicksFile << std::endl;
       }
-    
+
     /* Save blockchain length */
     if (blockChainFile.is_open())
       {
-		
+
 	blockChainFile << (GetSpace().GetSimulationClock()) / 10;
 
 	string contractAddressNoSpace = contractAddress;
@@ -1256,18 +1262,18 @@ void CEnvironmentClassificationLoopFunctions::PreStep() {
 	contractAddressNoSpace.erase(std::remove(contractAddressNoSpace.begin(),
 						 contractAddressNoSpace.end(), '\n'),
 				     contractAddressNoSpace.end());
-	
+
 	int args[0] = {};
 
 	/* For all robots */
-	
+
 	      CSpace::TMapPerType& m_cEpuck = GetSpace().GetEntitiesByType("epuck");
-	      
+
 	      for(CSpace::TMapPerType::iterator it = m_cEpuck.begin();it != m_cEpuck.end();++it){
-		
+
 		CEPuckEntity& cEpuck = *any_cast<CEPuckEntity*>(it->second);
 		EPuck_Environment_Classification& cController =  dynamic_cast<EPuck_Environment_Classification&>(cEpuck.GetControllableEntity().GetController());
-		
+
 		std::string id = cController.GetId();
 		int robotId = Id2Int(id);
 		int robotNodeInt = cController.getNodeInt();
@@ -1276,7 +1282,7 @@ void CEnvironmentClassificationLoopFunctions::PreStep() {
 		if (robotId == 2) {
 		  blockChainFile << "\t" << getBlockChainLength(robotId, robotNodeInt, blockchainPath);
 		}
-		
+
 	      }
 	      blockChainFile << std::endl;
       }
