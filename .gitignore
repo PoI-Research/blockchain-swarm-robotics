@@ -12,3 +12,4 @@ regenerate*.sh
 genesis/genesis*.json
 experiments/config*.txt
 experiments/epuck*.argos
+mail.txt
