@@ -137,7 +137,7 @@ fi
 
 if [ "$CONSENSUS_ALGORITHM" == "poi" ]
 then
-	kill -9 `sudo lsof -t -i:8080`
+	kill -9 `lsof -t -i:8080`
 fi
 
 done
