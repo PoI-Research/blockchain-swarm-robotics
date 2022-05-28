@@ -13,3 +13,4 @@ genesis/genesis*.json
 experiments/config*.txt
 experiments/epuck*.argos
 mail.txt
+node_modules
