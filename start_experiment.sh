@@ -1,4 +1,4 @@
-# Usage: bash start_xyz.sh <node1> <node2> <decision_rule> <consensus_algorithm>
+# Usage: bash start_xyz.sh <node1> <node2> <decision_rule> <consensus_algorithm> <no_of_robots> <no_of_repetitions> <byzantine_robots> <use_classical> <percent_black>
 
 BASE="$HOME/blockchain-swarm-robotics"
 SCOUT="${BASE}/contracts/Byzantine.sol"
@@ -9,10 +9,10 @@ BASEDIR="${BASE}/controllers/epuck_environment_classification/"
 BLOCKCHAINPATH="$HOME/eth_data_para$1/data" # always without '/' at the end!!
 MINERID=$(expr 120 + $1)
 echo "MINERID is ${MINERID}"
-NUMROBOTS=(2)
-REPETITIONS=1
+NUMROBOTS=($5)
+REPETITIONS=$6
 DECISIONRULE=$3
-PERCENT_BLACKS=(80)
+PERCENT_BLACKS=($9)
 #PERCENT_BLACKS=(34)
 # the one I did all the tests with:
 MININGDIFF=1000000 #was 1000000 before
@@ -33,7 +33,11 @@ REGENERATEFILE="$(pwd)/regenerate${USEDNODES[0]}.sh"
 # The miner node is the first of the used nodes
 MINERNODE=${USEDNODES[0]}
 USECLASSICALAPPROACH=false
-NUMBYZANTINE=(0)
+if($8 == "true")
+then
+	USECLASSICALAPPROACH=true
+fi
+NUMBYZANTINE=($7)
 BYZANTINESWARMSTYLE=0
 SUBSWARMCONSENSUS=false # Determines if all N robots have to agree or
 		       # only the beneficial subswarm.
