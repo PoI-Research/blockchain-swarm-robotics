@@ -1,30 +1,62 @@
 # Managing Byzantine Robots via Blockchain Technology in a Swarm Robotics Collective Decision Making Scenario
 
-
-This repository contains the code for the paper:
-
-V.Strobel, E. Castello Ferrer, M. Dorigo. 2018.
-Managing Byzantine Robots via Blockchain Technology in a Swarm Robotics Collective Decision Making Scenario.
-
-*To appear in Proceedings of the 17th Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Autonomous Agents and Multiagent Systems (AAMAS 2018).*
-
-A pre-print is available at:  
-http://iridia.ulb.ac.be/IridiaTrSeries/
-
 ## Instructions
 
-There is a .ova virtual machine file that contains a runnable version of this repository.
-The link to the VM image is https://drive.google.com/open?id=1aDJcWafd-GziCL12MOfWdgTizpACPAb4  (the files are in `~/blockchain-swarm-robotics/`).
+# Linux
+sudo apt-get install cmake libfreeimage-dev libfreeimageplus-dev \
+  qt5-default freeglut3-dev libxi-dev libxmu-dev liblua5.3-dev \
+  lua5.3 doxygen graphviz libgraphviz-dev asciidoc
 
-User: Iridia  
-pw: Iridia
+If qt5-default is not found, use this:
+sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 
-Execute Experiment 1 with:
 
-`bash start_experiment1.sh 0 0 1`
+install python
 
-Please note that we are currently working on a cleaned-up and more versatile version of this code. 
-Below are some hints for the installation (more will follow soon). It's maybe also a good idea to check out the virtual machine file (see above) to see how the dependencies are set up.
+sudo apt-get install g++
+
+
+./scripts/install_argos.sh
+
+nano ~/.bashrc
+
+source /home/thivi/argos3-dist/bin/setup_argos3
+
+
+install go 1.7.3
+
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+./create-geths.sh
+
+./create_sc.sh
+
+sudo add-apt-repository ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install solc
+
+install npm
+
+install solc@0.4.8
+
+install sendmail
+
+edit experiment file
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make
+
+Add export PATH=$PATH:/home/thivi/poi/blockchain-swarm-robotics/go-ethereum0/build/bin
+
+start experiment
 
 ### Requirements:
 - ARGoS 3
@@ -33,25 +65,6 @@ Below are some hints for the installation (more will follow soon). It's maybe al
 - cmake
 - golang (tested with version 1.7.3)
 - optional: sendmail
-
-The easiest way to install ARGoS and the epuck plugin is via the
-script `install_argos.sh` (install the dependencies mentioned at https://github.com/ilpincy/argos3 first). `install_argos.sh` creates a setup script that should be executed everytime you want to run ARGoS. You can, for example, add the script to your `.bashrc`:
-source "~/argos3-dist/bin/setup_argos3"
-
-Then, execute `create_geths.sh` and add the created geths (default is
-just `geth0`) to your PATH (incl. export).
-
-Install the solidity compiler `solc`.
-
-Edit the file `start_experiment1.sh` (change the variables BASE, mailto, etc.).
-
-Compile the code (`mkdir build`; `cd build`; `cmake ..`; `make`).
-
-Run an experiment: `bash start_experiment1.sh 0 0 1`
-
-## Video tutorial
-
-There is a video tutorial on how to install the framework at https://www.youtube.com/watch?v=0hEZGHlqdJ8
 
 ## Scenario
 
@@ -78,6 +91,3 @@ the majority color (in our experiments it is always the white).
 <p align="center">
 <img src="https://github.com/Pold87/blockchain-swarm-robotics/blob/master/img/environment.png" alt="Collective decision-making scenario"/>
 </p>
-
-
-
