@@ -12,18 +12,13 @@ INSTALL_DIR=/home/${USERNAME}/argos3-dist
 # ARGoS3 repository
 ARGOS3_REPOSITORY=https://github.com/ilpincy/argos3.git
 ARGOS3_BRANCH=3.0.0-beta48
-ARGOS3_DIR=argos3
+ARGOS3_DIR=../argos3
 
 # IRIDIA e-puck repository
 #EPUCK_REPOSITORY=https://garattonilorenzo:prova@iridia-dev.ulb.ac.be/projects/argos3-epuck.git
 EPUCK_REPOSITORY=https://github.com/demiurge-project/argos3-epuck.git
 EPUCK_BRANCH=v48
-EPUCK_DIR=argos3-epuck
-
-# TAM repository
-TAM_REPOSITORY=https://garattonilorenzo:prova@iridia-dev.ulb.ac.be/projects/iridia-tam.git
-TAM_BRANCH=master
-TAM_DIR=iridia-tam
+EPUCK_DIR=../argos3-epuck
 
 
 function error() {
@@ -40,7 +35,7 @@ function get_code() {
     local REPO=$1
     local BRANCH=$2
     local OUTDIR=$3
-  
+
     if [ ! -d $OUTDIR ]; then
         echo -n "Downloading... "
         git clone --branch=$BRANCH $REPO $OUTDIR || error
@@ -99,17 +94,6 @@ function do_epuck() {
     cd ..
 }
 
-# Builds and installs tam
-function do_tam() {
-    echo "+++ TAM +++"
-    export PKG_CONFIG_PATH=$INSTALL_DIR/lib/pkgconfig
-    export LD_LIBRARY_PATH=/usr/java/jdk1.6.0_43/jre/lib/amd64/xawt
-    get_code $TAM_REPOSITORY $TAM_BRANCH $TAM_DIR
-    cd $TAM_DIR
-    do_build_install argos3/src
-    cd ..
-}
-
 # Creates the setup script
 function do_create_setup_script() {
     local SCRIPTFILE=$INSTALL_DIR/bin/setup_argos3
@@ -129,7 +113,6 @@ function do_create_setup_script() {
 # Go through packages
 do_argos3
 do_epuck
-#do_tam
 
 # Create the setup script
 do_create_setup_script

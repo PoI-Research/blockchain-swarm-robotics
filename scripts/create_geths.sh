@@ -1,11 +1,11 @@
 BASE=`pwd`
-git clone https://github.com/thivi/go-ethereum.git
+git clone https://github.com/thivi/go-ethereum.git ../
 cd go-ethereum
 #git checkout eee96a5b
 #git checkout -b fixeddiff
 
 mv core/block_validator.go core/block_validator.go.template
-#mv consensus/ethash/consensus.go consensus/ethash/consensus.go.template 
+#mv consensus/ethash/consensus.go consensus/ethash/consensus.go.template
 mv circle.yml circle.yml.template
 mv vendor/github.com/ethereum/ethash/ethash.go vendor/github.com/ethereum/ethash/ethash.go.template
 
@@ -34,7 +34,7 @@ fi
 
 for i in $RESERVEDNODES; do
 
-    cp -r "$BASE/go-ethereum/" "$BASE/go-ethereum${i}"
+    mv -r "$BASE/go-ethereum/" "$BASE/go-ethereum${i}"
 
     OUTFILEA="$BASE/go-ethereum${i}/circle.yml"
 
@@ -46,10 +46,8 @@ for i in $RESERVEDNODES; do
     OUTFILEC="$BASE/go-ethereum${i}/core/block_validator.go"
 
     sed -e "s|MININGDIFF|$MININGDIFF|g" $TEMPLATEC > $OUTFILEC
-    
+
     make -C "$BASE/go-ethereum${i}"
     mv "$BASE/go-ethereum${i}/build/bin/geth" "$BASE/go-ethereum${i}/build/bin/geth${i}"
-    
+
 done
-
-
