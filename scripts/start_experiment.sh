@@ -58,9 +58,9 @@ then
 	cd swarm-controller && go run . &
 fi
 
-solcjs --overwrite --abi --bin -o . $SCOUT
-cp Byzantine.bin "${BASEDIR}/data.txt"
-cp Byzantine.abi "${BASEDIR}/interface.txt"
+solcjs --overwrite --abi --bin -o compiled_contract $SCOUT
+cp compiled_contract/*Byzantine.bin "${BASEDIR}/data.txt"
+cp compiled_contract/*Byzantine.abi "${BASEDIR}/interface.txt"
 
 if [ "$USECLASSICALAPPROACH" == "true" ]; then
     REALTIME="false"
@@ -110,7 +110,7 @@ fi
 	    # Create template for:
 	    # Create directories for collecting data and the geth processes
 	    # Create file for killing the blockchain proceeses on these nodes
-	    sed -e "s|NODEA|${USEDNODES[0]}|g" -e "s|NODEB|${USEDNODES[1]}|g" -e "s|BLOCKCHAINPATH|$BLOCKCHAINPATH|g" -e "s|PWD|$(pwd)|g" regenerate_template.sh > $REGENERATEFILE
+	    sed -e "s|NODEA|${USEDNODES[0]}|g" -e "s|NODEB|${USEDNODES[1]}|g" -e "s|BLOCKCHAINPATH|$BLOCKCHAINPATH|g" -e "s|PWD|$(pwd)|g" ./scripts/regenerate_template.sh > $REGENERATEFILE
 	    # and apply the regeneration file for the blockchain folders
 	    bash $REGENERATEFILE
 
