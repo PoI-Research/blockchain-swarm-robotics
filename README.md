@@ -58,6 +58,14 @@ Add export PATH=$PATH:/home/thivi/poi/blockchain-swarm-robotics/go-ethereum0/bui
 
 start experiment
 
+Decision Rules
+
+1 DMVD
+
+2 DC
+
+3 DMMD
+
 ### Requirements:
 - ARGoS 3
 - ARGoS-epuck
