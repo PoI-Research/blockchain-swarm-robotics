@@ -42,8 +42,6 @@ install npm
 
 install solc@0.4.8
 
-install sendmail
-
 edit experiment file
 
 mkdir build
@@ -55,6 +53,19 @@ cmake ..
 make
 
 Add export PATH=$PATH:/home/thivi/poi/blockchain-swarm-robotics/go-ethereum0/build/bin
+
+curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+
+sudo apt-get update
+sudo apt-get install redis
+
+sudo apt-get install libhiredis-dev
+
+install_redis.sh
+
+redis-server
 
 start experiment
 
