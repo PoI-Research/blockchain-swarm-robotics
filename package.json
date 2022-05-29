@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thivi/blockchain-swarm-robotics/issues"
   },
-  "homepage": "https://github.com/thivi/blockchain-swarm-robotics#readme"
+  "homepage": "https://github.com/thivi/blockchain-swarm-robotics#readme",
+  "dependencies": {
+    "redis": "^4.1.0"
+  }
 }
