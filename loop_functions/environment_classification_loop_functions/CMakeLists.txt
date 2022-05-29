@@ -9,7 +9,6 @@ endif(ARGOS_COMPILE_QTOPENGL)
 
 add_library(environment_classification_loop_functions MODULE ${environment_classification_loop_functions_SOURCES})
 
-
 target_link_libraries(environment_classification_loop_functions
   epuck_environment_classification
   argos3core_simulator
@@ -17,9 +16,10 @@ target_link_libraries(environment_classification_loop_functions
   argos3plugin_simulator_entities
   argos3plugin_simulator_epuck
   argos3plugin_simulator_genericrobot
-  argos3plugin_simulator_media)
+  argos3plugin_simulator_media
+  libredis++.a
+  libhiredis.a)
 
 if(ARGOS_COMPILE_QTOPENGL)
 target_link_libraries(environment_classification_loop_functions argos3plugin_simulator_qtopengl)
 endif(ARGOS_COMPILE_QTOPENGL)
-
