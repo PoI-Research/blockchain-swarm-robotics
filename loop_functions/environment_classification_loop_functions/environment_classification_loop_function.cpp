@@ -3,9 +3,10 @@
 #include "environment_classification_loop_function.h"
 #include <argos3/core/utility/math/rng.h>
 #include "../../controllers/epuck_environment_classification/geth_static.h" /* Use geth from C++ */
-#include <cpp_redis/cpp_redis>
-
+#include <sw/redis++/redis++.h>
 #include <time.h>
+
+using namespace sw::redis;
 
 #define ALPHA_CHANNEL 0
 #define COLOR_STRENGHT 255
@@ -1062,21 +1063,8 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
             + to_string(decisionRule)
             + "\n}";
 
-            cpp_redis::client client;
-
-            client.connect(redisURI, 6379, [](const std::string &host, std::size_t port, cpp_redis::client::connect_state status) {
-                if (status == cpp_redis::client::connect_state::dropped)
-                {
-                    std::cout << "client disconnected from " << host << ":" << port << std::endl;
-                }
-            });
-
-            // same as client.send({ "SET", "hello", "42" }, ...)
-            client.set("experimentData", outputString, [](cpp_redis::reply &reply) {
-                std::cout << "set hello 42: " << reply << std::endl;
-                // if (reply.is_string())
-                //   do_something_with_string(reply.as_string())
-            });
+            auto redis = Redis(redisURI);
+            redis.publish("experimentData", outputString);
 
             /* Save blockchain length */
             if (blockChainFile.is_open())
@@ -1190,21 +1178,8 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
             + to_string(decisionRule)
             + "\n}";
 
-            cpp_redis::client client;
-
-            client.connect(redisURI, 6379, [](const std::string &host, std::size_t port, cpp_redis::client::connect_state status) {
-                if (status == cpp_redis::client::connect_state::dropped)
-                {
-                    std::cout << "client disconnected from " << host << ":" << port << std::endl;
-                }
-            });
-
-            // same as client.send({ "SET", "hello", "42" }, ...)
-            client.set("experimentData", outputString, [](cpp_redis::reply &reply) {
-                std::cout << "set hello 42: " << reply << std::endl;
-                // if (reply.is_string())
-                //   do_something_with_string(reply.as_string())
-            });
+            auto redis = Redis(redisURI);
+            redis.publish("experimentData", outputString);
 
             time_t ti_end;
             time(&ti_end);

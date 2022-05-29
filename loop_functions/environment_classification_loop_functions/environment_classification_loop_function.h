@@ -19,7 +19,6 @@
 #include <ctime>
 #include <stddef.h>
 
-
 using namespace argos;
 
 extern bool gethStaticErrorOccurred;
