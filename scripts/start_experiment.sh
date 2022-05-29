@@ -43,7 +43,7 @@ SUBSWARMCONSENSUS=false # Determines if all N robots have to agree or
 		       # only the beneficial subswarm.
 CONSENSUS_ALGORITHM="pow"
 SC_URI="http://localhost:8080"
-REDIS_URI="http://localhost:6379"
+REDIS_URI="tcp://localhost:6379"
 
 if [ -z "$4" ]
 then
@@ -131,7 +131,7 @@ fi
 	    bash "${BLOCKCHAINPATH}/bckillerccall"
 	    rm -rf "${BLOCKCHAINPATH}"*
 	    rm $REGENERATEFILE
-
+		rm genesis/"genesis$BASEPORT.json"
 	fi
 
 	 done
