@@ -23,7 +23,7 @@
 using namespace argos;
 
 extern bool gethStaticErrorOccurred;
-extern std::map<int, std::string> coinbaseAddresses;	
+extern std::map<int, std::string> coinbaseAddresses;
 
 class CEnvironmentClassificationLoopFunctions : public CLoopFunctions {
 
@@ -60,7 +60,7 @@ public:
 	inline UInt32 GetGrid(UInt32 i) {
 		return grid[i];
 	}
- 
+
 	virtual void Reset();
 	virtual bool InitRobots();
 	virtual bool IsExperimentFinished();
@@ -87,7 +87,7 @@ private:
 	virtual bool CheckEtherReceived();
 	virtual void fillSettings(TConfigurationNode& tEnvironment);
 	virtual std::vector<int> getAllRobotIds();
-	
+
 	/* Variable of the environment, help variables and experiment finished signal */
 	CRange<Real> zeroOne;
 	CRange<Real> bigRange;
@@ -135,10 +135,10 @@ private:
 	UInt32 robotsInExplorationCounter[N_COL];
 	UInt32 robotsInDiffusionCounter[N_COL];
 
-	/* Byzantine counters for the number of robots in each state for every colour */	
+	/* Byzantine counters for the number of robots in each state for every colour */
 	UInt32 byzantineRobotsInExplorationCounter[N_COL];
 	UInt32 byzantineRobotsInDiffusionCounter[N_COL];
-	
+
 	/* When consensousReached is equal to the number of the colors the swarm reached a consensous */
 	UInt32 consensousReached;
 
@@ -204,6 +204,7 @@ private:
 	int byzantineSwarmStyle;
 	bool useClassicalApproach;
 	std::string consensusAlgorithm;
+	std::string redisURI;
 	std::string scURI;
 	bool subswarmConsensus;
 };

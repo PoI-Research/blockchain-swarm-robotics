@@ -1,0 +1,20 @@
+{
+  "name": "blockchain-swarm-robotics",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thivi/blockchain-swarm-robotics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thivi/blockchain-swarm-robotics/issues"
+  },
+  "homepage": "https://github.com/thivi/blockchain-swarm-robotics#readme"
+}
