@@ -1,14 +1,15 @@
-# Clone the project
-git clone https://github.com/cpp-redis/cpp_redis.git
-# Go inside the project directory
-cd cpp_redis
-# Get tacopie submodule
-git submodule init && git submodule update
-# Create a build directory and move into it
-mkdir build && cd build
-# Generate the Makefile using CMake
-cmake .. -DCMAKE_BUILD_TYPE=Release
-# Build the library
+git clone https://github.com/sewenew/redis-plus-plus.git
+
+cd redis-plus-plus
+
+mkdir build
+
+cd build
+
+cmake -DREDIS_PLUS_PLUS_CXX_STANDARD=11 ..
+
 make
-# Install the library
+
 sudo make install
+
+cd ..
