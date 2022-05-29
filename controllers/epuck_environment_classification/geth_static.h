@@ -4,12 +4,13 @@
 #include <string>
 #include <vector>
 
-struct blockWithHash {
+struct blockWithHash
+{
   int blockNumber;
   std::string hash;
 };
 
-template<typename Out>
+template <typename Out>
 void split(const std::string &s, char delim, Out result);
 
 std::vector<std::string> split(const std::string &s, char delim);
@@ -20,21 +21,21 @@ std::string getUsername();
 
 uint Id2Int(std::string id);
 
-bool replace(std::string& str, const std::string& from, const std::string& to);
+bool replace(std::string &str, const std::string &from, const std::string &to);
 
-std::string replaceAll(std::string subject, const std::string& search,
-		  const std::string& replace);
+std::string replaceAll(std::string subject, const std::string &search,
+                       const std::string &replace);
 
 std::string removeSpace(std::string str);
 
-void ReplaceStringInPlace(std::string& subject, const std::string& search,
-                          const std::string& replace);
+void ReplaceStringInPlace(std::string &subject, const std::string &search,
+                          const std::string &replace);
 
 // Read first line of file fileName and return as string
 std::string readStringFromFile(std::string fileName);
 
 // Execute a command line command and return the result as string
-std::string exec(const char* cmd);
+std::string exec(const char *cmd);
 
 // Take a geth command, execute it on the selected robot, and return the result string
 std::string exec_geth_cmd(int i, std::string command, int nodeInt, std::string datadirBase);
@@ -42,7 +43,6 @@ std::string exec_geth_cmd(int i, std::string command, int nodeInt, std::string d
 std::string exec_geth_cmd_helper(int i, std::string command, int nodeInt, std::string datadirBase);
 std::string exec_geth_cmd_with_geth_restart(int i, std::string command, int nodeInt, int basePort, std::string datadirBase);
 bool exec_geth_cmd_wait(int i, std::string command, int nodeInt, int basePort, std::string datadirBase);
-
 
 void exec_geth_cmd_background(int i, std::string command, int nodeInt, std::string datadirBase);
 
@@ -115,7 +115,6 @@ std::string getRawTransaction(int i, std::string txHash, int nodeInt, std::strin
 
 /* Send raw transaction and include it in the tx pool */
 std::string sendRawTransaction(int i, std::string rawTx, int nodeInt, std::string datadirBase);
-
 
 /* Measure time and print it */
 double measure_time(double ref_time, std::string part_name);
