@@ -76,7 +76,26 @@ Decision Rules
 2 DC
 
 3 DMMD
-
+if (byzantineSwarmStyle == 0)
+    { // No Byzantine robots
+        remainingByzantineWhites = 0;
+        remainingByzantineBlacks = 0;
+    }
+    else if (byzantineSwarmStyle == 1)
+    {
+        remainingByzantineWhites = numByzantine;
+        remainingByzantineBlacks = 0;
+    }
+    else if (byzantineSwarmStyle == 2 || byzantineSwarmStyle == 5)
+    {
+        remainingByzantineWhites = 0;
+        remainingByzantineBlacks = numByzantine;
+    }
+    else if (byzantineSwarmStyle == 3)
+    { // White + black Byzantine robots
+        remainingByzantineWhites = numByzantine / 2;
+        remainingByzantineBlacks = numByzantine / 2;
+    }
 ### Requirements:
 - ARGoS 3
 - ARGoS-epuck
