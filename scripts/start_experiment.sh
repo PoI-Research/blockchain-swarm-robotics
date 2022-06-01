@@ -1,4 +1,4 @@
-# Usage: bash start_xyz.sh <node1> <node2> <decision_rule> <consensus_algorithm> <no_of_robots> <no_of_repetitions> <byzantine_robots> <use_classical> <percent_black>
+# Usage: bash start_xyz.sh <node1> <node2> <decision_rule> <consensus_algorithm> <no_of_robots> <no_of_repetitions> <byzantine_robots> <use_classical> <percent_black> <byzantine_swarm_style>
 
 BASE="$HOME/blockchain-swarm-robotics"
 SCOUT="${BASE}/contracts/Byzantine.sol"
@@ -38,7 +38,7 @@ then
 	USECLASSICALAPPROACH=true
 fi
 NUMBYZANTINE=($7)
-BYZANTINESWARMSTYLE=0
+BYZANTINESWARMSTYLE=${10}
 SUBSWARMCONSENSUS=false # Determines if all N robots have to agree or
 		       # only the beneficial subswarm.
 CONSENSUS_ALGORITHM="pow"
