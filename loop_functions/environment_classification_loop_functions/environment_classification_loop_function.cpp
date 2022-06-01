@@ -1045,23 +1045,27 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
         {
             number_of_runs--;
 
-            std::string outputString = "{\n\"secondsTaken\": "
+            std::string outputString = "{\"secondsTaken\": "
             + to_string((GetSpace().GetSimulationClock() - 1) / 10)
-            + ",\n\"numberOfWhites\": "
+            + ",\"numberOfWhites\": "
             + to_string(robotsInDiffusionCounter[1])
-            + ",\n\"numberOfBlacks\": "
+            + ",\"numberOfBlacks\": "
             + to_string(robotsInDiffusionCounter[2])
-            + ",\n\"numberOfRobots\": "
+            + ",\"numberOfRobots\": "
             + to_string(n_robots)
-            + ",\n\"isClassical\": "
+            + ",\"isClassical\": "
             + to_string(useClassicalApproach)
-            + ",\n\"consensusAlgorithm\": "
+            + ",\"consensusAlgorithm\": "
             + consensusAlgorithm
-            + ",\n\"percentageOfBlackTiles\": "
+            + ",\"percentageOfBlackTiles\": "
             + to_string(percentageOfColors[2])
-            + ",\n\"decisionRule\": "
+            + ",\"decisionRule\": "
             + to_string(decisionRule)
-            + "\n}";
+            + ",\"byzantineSwarmStyle\": "
+            + to_string(byzantineSwarmStyle)
+            + ",\"numberOfByzantineRobots\": "
+            + to_string(numByzantine)
+            + "}";
 
             auto redis = Redis(redisURI);
             redis.publish("experimentData", outputString);
@@ -1160,23 +1164,27 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
         { //consensousReached != N_COL){  written_qualities == number_of_qualities
             number_of_runs--;
 
-            std::string outputString = "{\n\"secondsTaken\": "
+            std::string outputString = "{\"secondsTaken\": "
             + to_string((GetSpace().GetSimulationClock() - 1) / 10)
-            + ",\n\"numberOfWhites\": "
+            + ",\"numberOfWhites\": "
             + to_string(robotsInDiffusionCounter[1])
-            + ",\n\"numberOfBlacks\": "
+            + ",\"numberOfBlacks\": "
             + to_string(robotsInDiffusionCounter[2])
-            + ",\n\"numberOfRobots\": "
+            + ",\"numberOfRobots\": "
             + to_string(n_robots)
-            + ",\n\"isClassical\": "
+            + ",\"isClassical\": "
             + to_string(useClassicalApproach)
-            + ",\n\"consensusAlgorithm\": "
+            + ",\"consensusAlgorithm\": "
             + consensusAlgorithm
-            + ",\n\"percentageOfBlackTiles\": "
+            + ",\"percentageOfBlackTiles\": "
             + to_string(percentageOfColors[2])
-            + ",\n\"decisionRule\": "
+            + ",\"decisionRule\": "
             + to_string(decisionRule)
-            + "\n}";
+            + ",\"byzantineSwarmStyle\": "
+            + to_string(byzantineSwarmStyle)
+            + ",\"numberOfByzantineRobots\": "
+            + to_string(numByzantine)
+            + "}";
 
             auto redis = Redis(redisURI);
             redis.publish("experimentData", outputString);
