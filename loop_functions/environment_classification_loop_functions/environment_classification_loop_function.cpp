@@ -1056,7 +1056,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
             + ",\"isClassical\": "
             + to_string(useClassicalApproach)
             + ",\"consensusAlgorithm\": "
-            + consensusAlgorithm
+            + "\"" + consensusAlgorithm + "\""
             + ",\"percentageOfBlackTiles\": "
             + to_string(percentageOfColors[2])
             + ",\"decisionRule\": "
@@ -1175,7 +1175,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
             + ",\"isClassical\": "
             + to_string(useClassicalApproach)
             + ",\"consensusAlgorithm\": "
-            + consensusAlgorithm
+            + "\"" + consensusAlgorithm + "\""
             + ",\"percentageOfBlackTiles\": "
             + to_string(percentageOfColors[2])
             + ",\"decisionRule\": "
