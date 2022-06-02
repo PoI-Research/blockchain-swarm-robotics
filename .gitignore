@@ -17,3 +17,4 @@ node_modules
 compiled_contract/**
 controllers/epuck_environment_classification/data.txt
 zmqpp/**
+storage.json
