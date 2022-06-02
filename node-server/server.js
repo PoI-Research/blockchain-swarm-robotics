@@ -13,7 +13,9 @@ const io = new Server(server, {
 const { exec } = require('child_process');
 const cors = require("cors");
 const JSONdb = require("simple-json-db");
-const db = new JSONdb(path.join(__dirname, "storage.json"));
+const path = require("path");
+
+const db = new JSONdb(path.join(__dirname, "..", "storage.json"));
 
 const EXPERIMENT_DATA = "experimentData";
 const QUEUE = "queue";
@@ -30,10 +32,10 @@ client.connect().then(() => {
         currentExperimentData = JSON.parse(data);
         if (db.has(EXPERIMENT_DATA)) {
             const existingData = db.get(EXPERIMENT_DATA);
-            existingData.push(data);
+            existingData.push(JSON.parse(data));
             db.set(EXPERIMENT_DATA, existingData);
         } else {
-            db.set(EXPERIMENT_DATA, [ data ]);
+            db.set(EXPERIMENT_DATA, [ JSON.parse(data) ]);
         }
         lock = false;
     });
@@ -42,13 +44,15 @@ client.connect().then(() => {
 io.on('connection', (socket) => {
     console.log('a user connected');
 
-    socket.on("RUN_EXPERIMENTS", async (queue) => {
+    socket.on("RUN_EXPERIMENTS", async (queueObj) => {
+        const queue = Object.entries(queueObj).map(([ key, value ]) => value);
+
         if (!(queue && Array.isArray(queue) && queue.length > 0)) {
-            socket.emit("error", "The queue is not of the correct format.");
+            socket.emit("ERROR", "The queue is not of the correct format.");
 
             return;
         }
-
+        socket.emit("A", "Hello")
         console.log("About to loop through...")
         for (const experiment of queue) {
             const decsionRule = experiment.decisionRule;
@@ -77,15 +81,15 @@ io.on('connection', (socket) => {
             socket.emit("EXPERIMENT_DATA", currentExperimentData);
         }
 
-        socket.emit("Experiment Completed");
+        socket.emit("EXPERIMENT_COMPLETED");
     })
 });
 
-app.get("queue", (req, res) => {
+app.get("/queue", (req, res) => {
     res.send(db.get(QUEUE));
 });
 
-app.post("queue", (req, res) => {
+app.post("/queue", (req, res) => {
     if (db.has(QUEUE)) {
         const queue = db.get(QUEUE);
         queue.push(req.body);
@@ -97,17 +101,18 @@ app.post("queue", (req, res) => {
     res.send();
 });
 
-app.get("experiment-data", (req, res) => {
+app.get("/experiment-data", (req, res) => {
+    console.log(db.get(EXPERIMENT_DATA));
     res.send(db.get(EXPERIMENT_DATA));
 });
 
-app.delete("queue", (req, res) => {
+app.delete("/queue", (req, res) => {
     db.delete(QUEUE);
 
     res.send();
 });
 
-app.delete("queue/:id", (req, res) => {
+app.delete("/queue/:id", (req, res) => {
     if (!db.has(QUEUE)) {
         res.status(400).send("Queue is empty");
 
@@ -121,13 +126,13 @@ app.delete("queue/:id", (req, res) => {
     res.send();
 });
 
-app.delete("experiment-data", (req, res) => {
+app.delete("/experiment-data", (req, res) => {
     db.delete(EXPERIMENT_DATA);
 
     res.send();
 })
 
-app.delete("experiment-data/:id", (req, res) => {
+app.delete("/experiment-data/:id", (req, res) => {
     if (!db.has(EXPERIMENT_DATA)) {
         res.status(400).send("Experiment data is empty");
 
