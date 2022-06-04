@@ -14,13 +14,14 @@ const { exec } = require('child_process');
 const cors = require("cors");
 const JSONdb = require("simple-json-db");
 const path = require("path");
-
+var bodyParser = require('body-parser');
 const db = new JSONdb(path.join(__dirname, "..", "storage.json"));
 
 const EXPERIMENT_DATA = "experimentData";
 const QUEUE = "queue";
 
 app.use(cors());
+app.use(bodyParser.json());
 
 let lock = false;
 let currentExperimentData = null;
@@ -44,8 +45,8 @@ client.connect().then(() => {
 io.on('connection', (socket) => {
     console.log('a user connected');
 
-    socket.on("RUN_EXPERIMENTS", async (queueObj) => {
-        const queue = Object.entries(queueObj).map(([ key, value ]) => value);
+    socket.on("RUN_EXPERIMENTS", async (repetitions) => {
+        const queue = db.get(QUEUE);
 
         if (!(queue && Array.isArray(queue) && queue.length > 0)) {
             socket.emit("ERROR", "The queue is not of the correct format.");
@@ -65,20 +66,22 @@ io.on('connection', (socket) => {
 
             console.log("Running experiment...");
             console.log(experiment);
-            exec(`../sample.sh 0 0 ${ decsionRule } ${ consensusAlgorithm } ${ numberOfRobots } 1 ${ numberOfByzantineRobots } ${ useClassicalApproach } ${ percentageOfBlackTiles } ${ byzantineSwarmStyle }`);
-            lock = true;
+            for (i = 0; i < parseInt(repetitions); i++) {
+                exec(`../sample.sh 0 0 ${ decsionRule } ${ consensusAlgorithm } ${ numberOfRobots } 1 ${ numberOfByzantineRobots } ${ useClassicalApproach } ${ percentageOfBlackTiles } ${ byzantineSwarmStyle }`);
+                lock = true;
 
-            while (lock) {
-                await new Promise(resolve => {
-                    setTimeout(() => {
-                        console.log("Waiting for the current experiment to complete...");
-                        resolve();
-                    }, 5000);
-                });
+                while (lock) {
+                    await new Promise(resolve => {
+                        setTimeout(() => {
+                            console.log("Waiting for the current experiment to complete...");
+                            resolve();
+                        }, 5000);
+                    });
+                }
+
+                console.log("Experiment done. Next experiment.");
+                socket.emit("EXPERIMENT_DATA", currentExperimentData);
             }
-
-            console.log("Experiment done. Next experiment.");
-            socket.emit("EXPERIMENT_DATA", currentExperimentData);
         }
 
         socket.emit("EXPERIMENT_COMPLETED");
@@ -86,7 +89,13 @@ io.on('connection', (socket) => {
 });
 
 app.get("/queue", (req, res) => {
-    res.send(db.get(QUEUE));
+    if (db.has(QUEUE)) {
+        res.send(db.get(QUEUE));
+
+        return;
+    }
+
+    res.send([]);
 });
 
 app.post("/queue", (req, res) => {
@@ -102,8 +111,13 @@ app.post("/queue", (req, res) => {
 });
 
 app.get("/experiment-data", (req, res) => {
-    console.log(db.get(EXPERIMENT_DATA));
-    res.send(db.get(EXPERIMENT_DATA));
+    if (db.has(EXPERIMENT_DATA)) {
+        res.send(db.get(EXPERIMENT_DATA));
+
+        return;
+    }
+
+    res.send([]);
 });
 
 app.delete("/queue", (req, res) => {
@@ -120,7 +134,7 @@ app.delete("/queue/:id", (req, res) => {
     }
 
     const queue = db.get(QUEUE);
-    queue.splice(id, 1);
+    queue.splice(req.params.id, 1);
     db.set(QUEUE, queue);
 
     res.send();
@@ -140,7 +154,7 @@ app.delete("/experiment-data/:id", (req, res) => {
     }
 
     const data = db.get(EXPERIMENT_DATA);
-    data.splice(id, 1);
+    data.splice(req.params.id, 1);
     db.set(EXPERIMENT_DATA, data);
 
     res.send();
