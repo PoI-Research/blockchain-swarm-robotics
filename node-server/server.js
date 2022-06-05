@@ -10,14 +10,12 @@ const io = new Server(server, {
         origin: "*"
     }
 });
-const { exec } = require('child_process');
+const { spawn } = require('child_process');
 const cors = require("cors");
 const JSONdb = require("simple-json-db");
 const path = require("path");
 var bodyParser = require('body-parser');
 const { Parser } = require("json2csv");
-const { reset } = require("nodemon");
-
 const opts = {
     fields: [
         "secondsTaken",
@@ -49,16 +47,20 @@ client.on("error", (err) => console.log("Redis Client Error", err));
 
 client.connect().then(() => {
     client.subscribe("experimentData", (data) => {
-        console.log(data)
-        currentExperimentData = {...JSON.parse(data), id};
-        if (db.has(EXPERIMENT_DATA)) {
-            const existingData = db.get(EXPERIMENT_DATA);
-            existingData.push(currentExperimentData);
-            db.set(EXPERIMENT_DATA, existingData);
-        } else {
-            db.set(EXPERIMENT_DATA, [ currentExperimentData ]);
+        try {
+            console.log(data);
+            currentExperimentData = { ...JSON.parse(data), id };
+            if (db.has(EXPERIMENT_DATA)) {
+                const existingData = db.get(EXPERIMENT_DATA);
+                existingData.push(currentExperimentData);
+                db.set(EXPERIMENT_DATA, existingData);
+            } else {
+                db.set(EXPERIMENT_DATA, [ currentExperimentData ]);
+            }
+            lock = false;
+        } catch (error) {
+            console.log(error);
         }
-        lock = false;
     });
 });
 
@@ -86,9 +88,22 @@ io.on('connection', (socket) => {
 
             console.log("Running experiment...");
             console.log(experiment);
+            spawn("bash", [ "../scripts/clean_dirs.sh", 0 ]);
             for (i = 0; i < parseInt(repetitions); i++) {
-                exec(`../scripts/start_experiment.sh 0 0 ${ decsionRule } ${ consensusAlgorithm } ${ numberOfRobots } 1 ${ numberOfByzantineRobots } ${ useClassicalApproach } ${ percentageOfBlackTiles } ${ byzantineSwarmStyle }`);
+                const process = spawn("bash", ["../scripts/start_experiment.sh",0, 0, decsionRule, consensusAlgorithm, numberOfRobots,1,numberOfByzantineRobots,useClassicalApproach,percentageOfBlackTiles,byzantineSwarmStyle]);
                 lock = true;
+
+                process.stdout.on('data', function (data) {
+                    console.log(data.toString());
+                });
+
+                process.stderr.on('data', function (data) {
+                    console.log(data.toString());
+                });
+
+                process.on('exit', function (code) {
+                    console.log('child process exited with code ' + code.toString());
+                });
 
                 while (lock) {
                     await new Promise(resolve => {
