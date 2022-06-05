@@ -15,6 +15,25 @@ const cors = require("cors");
 const JSONdb = require("simple-json-db");
 const path = require("path");
 var bodyParser = require('body-parser');
+const { Parser } = require("json2csv");
+const { reset } = require("nodemon");
+
+const opts = {
+    fields: [
+        "secondsTaken",
+        "numberOfWhites",
+        "numberOfBlacks",
+        "numberOfRobots",
+        "isClassical",
+        "consensusAlgorithm",
+        "percentageOfBlackTiles",
+        "decisionRule",
+        "byzantineSwarmStyle",
+        "numberOfByzantineRobots",
+        "id"
+    ]
+}
+
 const db = new JSONdb(path.join(__dirname, "..", "storage.json"));
 
 const EXPERIMENT_DATA = "experimentData";
@@ -162,6 +181,12 @@ app.delete("/experiment-data/:id", (req, res) => {
     res.send();
 })
 
+app.get("/convert-to-csv", (req, res) => {
+    const parser = new Parser(opts);
+    const csv = parser.parse(db.get(EXPERIMENT_DATA));
+    res.send(csv);
+
+})
 server.listen(3000, () => {
     console.log('listening on *:3000');
 });
