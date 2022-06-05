@@ -45,6 +45,9 @@ CONSENSUS_ALGORITHM="pow"
 SC_URI="http://localhost:8080"
 REDIS_URI="tcp://localhost:6379"
 
+cd "$BASE"
+pwd
+
 if [ -z "$4" ]
 then
 	CONSENSUS_ALGORITHM="pow"
@@ -52,7 +55,7 @@ else
 	CONSENSUS_ALGORITHM=$4
 fi
 
-echo "Choosen consensus algorithm: $CONSENSUS_ALGORITHM"
+echo "Chosen consensus algorithm: $CONSENSUS_ALGORITHM"
 
 if [ "$CONSENSUS_ALGORITHM" == "poi" ]
 then
