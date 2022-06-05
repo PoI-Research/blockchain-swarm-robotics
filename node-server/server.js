@@ -87,7 +87,7 @@ io.on('connection', (socket) => {
             console.log("Running experiment...");
             console.log(experiment);
             for (i = 0; i < parseInt(repetitions); i++) {
-                exec(`../sample.sh 0 0 ${ decsionRule } ${ consensusAlgorithm } ${ numberOfRobots } 1 ${ numberOfByzantineRobots } ${ useClassicalApproach } ${ percentageOfBlackTiles } ${ byzantineSwarmStyle }`);
+                exec(`../scripts/start_experiment.sh 0 0 ${ decsionRule } ${ consensusAlgorithm } ${ numberOfRobots } 1 ${ numberOfByzantineRobots } ${ useClassicalApproach } ${ percentageOfBlackTiles } ${ byzantineSwarmStyle }`);
                 lock = true;
 
                 while (lock) {
