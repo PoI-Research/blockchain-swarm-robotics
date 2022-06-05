@@ -25,18 +25,19 @@ app.use(bodyParser.json());
 
 let lock = false;
 let currentExperimentData = null;
+let id = 0;
 client.on("error", (err) => console.log("Redis Client Error", err));
 
 client.connect().then(() => {
     client.subscribe("experimentData", (data) => {
         console.log(data)
-        currentExperimentData = JSON.parse(data);
+        currentExperimentData = {...JSON.parse(data), id};
         if (db.has(EXPERIMENT_DATA)) {
             const existingData = db.get(EXPERIMENT_DATA);
-            existingData.push(JSON.parse(data));
+            existingData.push(currentExperimentData);
             db.set(EXPERIMENT_DATA, existingData);
         } else {
-            db.set(EXPERIMENT_DATA, [ JSON.parse(data) ]);
+            db.set(EXPERIMENT_DATA, [ currentExperimentData ]);
         }
         lock = false;
     });
@@ -53,8 +54,8 @@ io.on('connection', (socket) => {
 
             return;
         }
-        socket.emit("A", "Hello")
-        console.log("About to loop through...")
+        console.log("About to loop through...");
+        id = 0;
         for (const experiment of queue) {
             const decsionRule = experiment.decisionRule;
             const percentageOfBlackTiles = experiment.percentageOfBlackTiles;
@@ -82,6 +83,7 @@ io.on('connection', (socket) => {
                 console.log("Experiment done. Next experiment.");
                 socket.emit("EXPERIMENT_DATA", currentExperimentData);
             }
+            id++;
         }
 
         socket.emit("EXPERIMENT_COMPLETED");
