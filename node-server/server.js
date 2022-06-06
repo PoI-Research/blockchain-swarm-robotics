@@ -59,7 +59,7 @@ client.connect().then(() => {
             }
             sockets.forEach(socket => {
                 socket.emit("EXPERIMENT_DATA", currentExperimentData);
-            })
+            });
             lock = false;
         } catch (error) {
             console.log(error);
@@ -122,8 +122,9 @@ io.on('connection', (socket) => {
             }
             id++;
         }
-
-        socket.emit("EXPERIMENT_COMPLETED");
+        sockets.forEach(socket => {
+            socket.emit("EXPERIMENT_COMPLETED");
+        });
     })
 });
 
