@@ -1113,6 +1113,11 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
 
             if (number_of_runs <= 0)
             {
+                /* Close runsFile*/
+                if (runsFile.is_open())
+                {
+                    runsFile.close();
+                }
                 /* Calcolate statistics */
                 UInt32 totalNumberOfExplorations = 0;
                 for (UInt32 c = 0; c < N_COL; c++)
@@ -1191,7 +1196,6 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
 
             if (number_of_runs <= 0)
             {
-
                 /* Close runsFile*/
                 if (runsFile.is_open())
                 {
