@@ -41,7 +41,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 let lock = false;
-let currentExperimentData = null;
+let sockets = [];
 let id = 0;
 client.on("error", (err) => console.log("Redis Client Error", err));
 
@@ -57,6 +57,9 @@ client.connect().then(() => {
             } else {
                 db.set(EXPERIMENT_DATA, [ currentExperimentData ]);
             }
+            sockets.forEach(socket => {
+                socket.emit("EXPERIMENT_DATA", currentExperimentData);
+            })
             lock = false;
         } catch (error) {
             console.log(error);
@@ -66,6 +69,7 @@ client.connect().then(() => {
 
 io.on('connection', (socket) => {
     console.log('a user connected');
+    sockets.push(socket);
 
     socket.on("RUN_EXPERIMENTS", async (repetitions) => {
         const queue = db.get(QUEUE);
@@ -115,7 +119,6 @@ io.on('connection', (socket) => {
                 }
 
                 console.log("Experiment done. Next experiment.");
-                socket.emit("EXPERIMENT_DATA", currentExperimentData);
             }
             id++;
         }
