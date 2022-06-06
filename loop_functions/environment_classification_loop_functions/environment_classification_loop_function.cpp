@@ -829,16 +829,17 @@ void CEnvironmentClassificationLoopFunctions::Init(TConfigurationNode &t_node)
             //	blockChainWhiteVotes << std::endl;
             //	blockChainBlackVotes << std::endl;
             //	blockChainLast2Votes << std::endl;
-
-            /*
+        }
+        cout << "Runs file flag is set to: " + to_string(runsFileFlag);
+        /*
              * File saving the the exit time and the number of robots (per opinion) after every run has been executed
              */
-            if (runsFileFlag)
-            {
-                m_strOutput = dataDir + passedRadix + ".RUNS";
-                runsFile.open(m_strOutput.c_str(), std::ios_base::out | std::ios_base::app);
-                runsFile << "Runs\t\tExitTime\tWhites\t\tGreens\t\tBlacks" << std::endl;
-            }
+        if (runsFileFlag)
+        {
+            cout << "Creating file";
+            m_strOutput = dataDir + passedRadix + ".RUNS";
+            runsFile.open(m_strOutput.c_str(), std::ios_base::out | std::ios_base::app);
+            runsFile << "Runs\t\tExitTime\tWhites\t\tGreens\t\tBlacks" << std::endl;
         }
 
         /*
@@ -1058,6 +1059,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
             /* RUNSFILE: Write statistics of the last run */
             if (runsFile.is_open())
             {
+                cout << "Writing to file";
                 runsFile << number_of_runs + 1 << "\t\t"
                          << (GetSpace().GetSimulationClock() - 1) / 10 << "\t\t";
 
@@ -1066,7 +1068,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
                 runsFile << std::endl;
             }
 
-            std::string outputString = "{\"secondsTaken\": " + to_string((GetSpace().GetSimulationClock() - 1) / 10) + ",\"numberOfWhites\": " + to_string(robotsInDiffusionCounter[1]) + ",\"numberOfBlacks\": " + to_string(robotsInDiffusionCounter[2]) + ",\"numberOfRobots\": " + to_string(n_robots) + ",\"isClassical\": " + to_string(useClassicalApproach) + ",\"consensusAlgorithm\": " + "\"" + consensusAlgorithm + "\"" + ",\"percentageOfBlackTiles\": " + to_string(percentageOfColors[2]) + ",\"decisionRule\": " + to_string(decisionRule) + ",\"byzantineSwarmStyle\": " + to_string(byzantineSwarmStyle) + ",\"numberOfByzantineRobots\": " + to_string(numByzantine) + "}";
+            std::string outputString = "{\"secondsTaken\": " + to_string((GetSpace().GetSimulationClock() - 1) / 10) + ",\"numberOfWhites\": " + to_string(robotsInDiffusionCounter[1] + robotsInExplorationCounter[1]) + ",\"numberOfBlacks\": " + to_string(robotsInDiffusionCounter[2] + robotsInExplorationCounter[2]) + ",\"numberOfRobots\": " + to_string(n_robots) + ",\"isClassical\": " + to_string(useClassicalApproach) + ",\"consensusAlgorithm\": " + "\"" + consensusAlgorithm + "\"" + ",\"percentageOfBlackTiles\": " + to_string(percentageOfColors[2]) + ",\"decisionRule\": " + to_string(decisionRule) + ",\"byzantineSwarmStyle\": " + to_string(byzantineSwarmStyle) + ",\"numberOfByzantineRobots\": " + to_string(numByzantine) + "}";
 
             auto redis = Redis(redisURI);
             redis.publish("experimentData", outputString);
@@ -1173,6 +1175,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
             /* RUNSFILE: Write statistics of the last run */
             if (runsFile.is_open())
             {
+                cout << "Writing to file";
                 runsFile << number_of_runs + 1 << "\t\t"
                          << (GetSpace().GetSimulationClock() - 1) / 10 << "\t\t";
 
@@ -1181,7 +1184,7 @@ bool CEnvironmentClassificationLoopFunctions::IsExperimentFinished()
                 runsFile << std::endl;
             }
 
-            std::string outputString = "{\"secondsTaken\": " + to_string((GetSpace().GetSimulationClock() - 1) / 10) + ",\"numberOfWhites\": " + to_string(robotsInDiffusionCounter[1]) + ",\"numberOfBlacks\": " + to_string(robotsInDiffusionCounter[2]) + ",\"numberOfRobots\": " + to_string(n_robots) + ",\"isClassical\": " + to_string(useClassicalApproach) + ",\"consensusAlgorithm\": " + "\"" + consensusAlgorithm + "\"" + ",\"percentageOfBlackTiles\": " + to_string(percentageOfColors[2]) + ",\"decisionRule\": " + to_string(decisionRule) + ",\"byzantineSwarmStyle\": " + to_string(byzantineSwarmStyle) + ",\"numberOfByzantineRobots\": " + to_string(numByzantine) + "}";
+            std::string outputString = "{\"secondsTaken\": " + to_string((GetSpace().GetSimulationClock() - 1) / 10) + ",\"numberOfWhites\": " + to_string(robotsInDiffusionCounter[1] + +robotsInExplorationCounter[1]) + ",\"numberOfBlacks\": " + to_string(robotsInDiffusionCounter[2]+ robotsInExplorationCounter[2]) + ",\"numberOfRobots\": " + to_string(n_robots) + ",\"isClassical\": " + to_string(useClassicalApproach) + ",\"consensusAlgorithm\": " + "\"" + consensusAlgorithm + "\"" + ",\"percentageOfBlackTiles\": " + to_string(percentageOfColors[2]) + ",\"decisionRule\": " + to_string(decisionRule) + ",\"byzantineSwarmStyle\": " + to_string(byzantineSwarmStyle) + ",\"numberOfByzantineRobots\": " + to_string(numByzantine) + "}";
 
             auto redis = Redis(redisURI);
             redis.publish("experimentData", outputString);
