@@ -829,50 +829,49 @@ void CEnvironmentClassificationLoopFunctions::Init(TConfigurationNode &t_node)
             //	blockChainWhiteVotes << std::endl;
             //	blockChainBlackVotes << std::endl;
             //	blockChainLast2Votes << std::endl;
+
+            /*
+             * File saving the the exit time and the number of robots (per opinion) after every run has been executed
+             */
+            if (runsFileFlag)
+            {
+                m_strOutput = dataDir + passedRadix + ".RUNS";
+                runsFile.open(m_strOutput.c_str(), std::ios_base::out | std::ios_base::app);
+                runsFile << "Runs\t\tExitTime\tWhites\t\tGreens\t\tBlacks" << std::endl;
+            }
         }
 
         /*
-         * File saving the the exit time and the number of robots (per opinion) after every run has been executed
+         * File saving the quality and the opinion of every robots after every changing from exploration to diffusing state
+         * (the quality and the   actualOpinion are the definitive ones)
          */
-        if (runsFileFlag)
+        if (qualityFileFlag)
         {
-            m_strOutput = dataDir + passedRadix + ".RUNS";
-            runsFile.open(m_strOutput.c_str(), std::ios_base::out | std::ios_base::app);
-            runsFile << "Runs\t\tExitTime\tWhites\t\tGreens\t\tBlacks" << std::endl;
+            m_strOutput = dataDir + passedRadix + ".qualitiesFile";
+            everyQualityFile.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
+            everyQualityFile << "Q\tOP" << std::endl;
         }
-    }
 
-    /*
-     * File saving the quality and the opinion of every robots after every changing from exploration to diffusing state
-     * (the quality and the   actualOpinion are the definitive ones)
-     */
-    if (qualityFileFlag)
-    {
-        m_strOutput = dataDir + passedRadix + ".qualitiesFile";
-        everyQualityFile.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
-        everyQualityFile << "Q\tOP" << std::endl;
-    }
+        /* File saving all the statistics (times, counted cells and qualities) after the whole experiment is finished */
+        if (globalStatFileFlag)
+        {
+            m_strOutput = dataDir + passedRadix + ".globalStatistics";
+            globalStatFile.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
+            globalStatFile << "TEX\tTC\tTDR\tQR\tCR\tTDG\tQG\tCG\tTDB\tQB\tCB\t" << std::endl;
+        }
+        if (oneRobotFileFlag)
+        {
+            m_strOutput = dataDir + passedRadix + ".oneRobotFile";
+            oneRobotFile.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
+        }
 
-    /* File saving all the statistics (times, counted cells and qualities) after the whole experiment is finished */
-    if (globalStatFileFlag)
-    {
-        m_strOutput = dataDir + passedRadix + ".globalStatistics";
-        globalStatFile.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
-        globalStatFile << "TEX\tTC\tTDR\tQR\tCR\tTDG\tQG\tCG\tTDB\tQB\tCB\t" << std::endl;
+        /* Incorrect parameters (Number of robots or initial colors) -> Terminate the execution without write files */
     }
-    if (oneRobotFileFlag)
+    else
     {
-        m_strOutput = dataDir + passedRadix + ".oneRobotFile";
-        oneRobotFile.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
+        incorrectParameters = true;
+        IsExperimentFinished();
     }
-
-    /* Incorrect parameters (Number of robots or initial colors) -> Terminate the execution without write files */
-}
-else
-{
-    incorrectParameters = true;
-    IsExperimentFinished();
-}
 }
 
 bool CEnvironmentClassificationLoopFunctions::allSameBCHeight()
