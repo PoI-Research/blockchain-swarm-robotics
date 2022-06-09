@@ -33,7 +33,8 @@ const opts = {
 }
 
 const db = new JSONdb(path.join(__dirname, "..", "storage.json"));
-
+const inputID = process.argv[ 2 ] ? process.argv[ 2 ] : 0;
+console.log(inputID)
 const EXPERIMENT_DATA = "experimentData";
 const QUEUE = "queue";
 
@@ -42,7 +43,7 @@ app.use(bodyParser.json());
 
 let lock = false;
 let sockets = [];
-let id = 0;
+let id = inputID;
 client.on("error", (err) => console.log("Redis Client Error", err));
 
 client.connect().then(() => {
@@ -80,7 +81,7 @@ io.on('connection', (socket) => {
             return;
         }
         console.log("About to loop through...");
-        id = 0;
+        id = inputID;
         for (const experiment of queue) {
             const decsionRule = experiment.decisionRule;
             const percentageOfBlackTiles = experiment.percentageOfBlackTiles;
