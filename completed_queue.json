@@ -1,4 +1,4 @@
-"queue": [
+{"queue": [
         {
             "decisionRule": 3,
             "percentageOfBlackTiles": 34,
@@ -1512,3 +1512,4 @@
             "numberOfRobots": 10
         }
     ]
+}
