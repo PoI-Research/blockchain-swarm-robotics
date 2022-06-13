@@ -1,130 +1,13 @@
 {
     "queue": [
         {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": true,
-            "numberOfByzantineRobots": 1,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 1,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "poi",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 1,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": true,
-            "numberOfByzantineRobots": 2,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 2,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "poi",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 2,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": true,
-            "numberOfByzantineRobots": 3,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 3,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "poi",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 3,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": true,
-            "numberOfByzantineRobots": 4,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 4,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
-        },
-        {
-            "decisionRule": 2,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "poi",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 4,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
-        },
-        {
-            "decisionRule": 1,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": true,
-            "numberOfByzantineRobots": 1,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
-        },
-        {
             "decisionRule": 1,
             "percentageOfBlackTiles": 34,
             "consensusAlgorithm": "pow",
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 1,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 1,
@@ -133,7 +16,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 1,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 1,
@@ -142,7 +25,7 @@
             "useClassicalApproach": true,
             "numberOfByzantineRobots": 2,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 1,
@@ -151,7 +34,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 2,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 1,
@@ -160,7 +43,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 2,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 1,
@@ -169,7 +52,7 @@
             "useClassicalApproach": true,
             "numberOfByzantineRobots": 3,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 1,
@@ -178,7 +61,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 3,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 1,
@@ -187,34 +70,88 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 3,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
+            "numberOfRobots": 5
         },
         {
-            "decisionRule": 1,
+            "decisionRule": 2,
             "percentageOfBlackTiles": 34,
             "consensusAlgorithm": "pow",
             "useClassicalApproach": true,
-            "numberOfByzantineRobots": 4,
+            "numberOfByzantineRobots": 1,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
+            "numberOfRobots": 5
         },
         {
-            "decisionRule": 1,
+            "decisionRule": 2,
             "percentageOfBlackTiles": 34,
             "consensusAlgorithm": "pow",
             "useClassicalApproach": false,
-            "numberOfByzantineRobots": 4,
+            "numberOfByzantineRobots": 1,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
+            "numberOfRobots": 5
         },
         {
-            "decisionRule": 1,
+            "decisionRule": 2,
             "percentageOfBlackTiles": 34,
             "consensusAlgorithm": "poi",
             "useClassicalApproach": false,
-            "numberOfByzantineRobots": 4,
+            "numberOfByzantineRobots": 1,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
+            "numberOfRobots": 5
+        },
+        {
+            "decisionRule": 2,
+            "percentageOfBlackTiles": 34,
+            "consensusAlgorithm": "pow",
+            "useClassicalApproach": true,
+            "numberOfByzantineRobots": 2,
+            "byzantineSwarmStyle": 2,
+            "numberOfRobots": 5
+        },
+        {
+            "decisionRule": 2,
+            "percentageOfBlackTiles": 34,
+            "consensusAlgorithm": "pow",
+            "useClassicalApproach": false,
+            "numberOfByzantineRobots": 2,
+            "byzantineSwarmStyle": 2,
+            "numberOfRobots": 5
+        },
+        {
+            "decisionRule": 2,
+            "percentageOfBlackTiles": 34,
+            "consensusAlgorithm": "poi",
+            "useClassicalApproach": false,
+            "numberOfByzantineRobots": 2,
+            "byzantineSwarmStyle": 2,
+            "numberOfRobots": 5
+        },
+        {
+            "decisionRule": 2,
+            "percentageOfBlackTiles": 34,
+            "consensusAlgorithm": "pow",
+            "useClassicalApproach": true,
+            "numberOfByzantineRobots": 3,
+            "byzantineSwarmStyle": 2,
+            "numberOfRobots": 5
+        },
+        {
+            "decisionRule": 2,
+            "percentageOfBlackTiles": 34,
+            "consensusAlgorithm": "pow",
+            "useClassicalApproach": false,
+            "numberOfByzantineRobots": 3,
+            "byzantineSwarmStyle": 2,
+            "numberOfRobots": 5
+        },
+        {
+            "decisionRule": 2,
+            "percentageOfBlackTiles": 34,
+            "consensusAlgorithm": "poi",
+            "useClassicalApproach": false,
+            "numberOfByzantineRobots": 3,
+            "byzantineSwarmStyle": 2,
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -223,7 +160,7 @@
             "useClassicalApproach": true,
             "numberOfByzantineRobots": 1,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -232,7 +169,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 1,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -241,7 +178,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 1,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 9
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -250,7 +187,7 @@
             "useClassicalApproach": true,
             "numberOfByzantineRobots": 2,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -259,7 +196,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 2,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -268,7 +205,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 2,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 8
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -277,7 +214,7 @@
             "useClassicalApproach": true,
             "numberOfByzantineRobots": 3,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -286,7 +223,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 3,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
+            "numberOfRobots": 5
         },
         {
             "decisionRule": 3,
@@ -295,34 +232,7 @@
             "useClassicalApproach": false,
             "numberOfByzantineRobots": 3,
             "byzantineSwarmStyle": 2,
-            "numberOfRobots": 7
-        },
-        {
-            "decisionRule": 3,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": true,
-            "numberOfByzantineRobots": 4,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
-        },
-        {
-            "decisionRule": 3,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "pow",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 4,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
-        },
-        {
-            "decisionRule": 3,
-            "percentageOfBlackTiles": 34,
-            "consensusAlgorithm": "poi",
-            "useClassicalApproach": false,
-            "numberOfByzantineRobots": 4,
-            "byzantineSwarmStyle": 2,
-            "numberOfRobots": 6
+            "numberOfRobots": 5
         }
     ],
     "experimentData": [
