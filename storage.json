@@ -1567,7 +1567,7 @@
             "id": 0
         },
         {
-            "secondsTaken": 1291,
+            "secondsTaken": 291,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -1645,111 +1645,7 @@
             "id": 0
         },
         {
-            "secondsTaken": 207,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 1
-        },
-        {
-            "secondsTaken": 187,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 1
-        },
-        {
-            "secondsTaken": 221,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 1
-        },
-        {
-            "secondsTaken": 265,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 1
-        },
-        {
-            "secondsTaken": 222,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 1
-        },
-        {
-            "secondsTaken": 207,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 1
-        },
-        {
-            "secondsTaken": 360,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 1
-        },
-        {
-            "secondsTaken": 186,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 1
-        },
-        {
-            "secondsTaken": 205,
+            "secondsTaken": 607,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -1762,7 +1658,72 @@
             "id": 1
         },
         {
-            "secondsTaken": 164,
+            "secondsTaken": 587,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 1
+        },
+        {
+            "secondsTaken": 621,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 1
+        },
+        {
+            "secondsTaken": 665,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 1
+        },
+        {
+            "secondsTaken": 622,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 1
+        },
+        {
+            "secondsTaken": 607,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 1
+        },
+        {
+            "secondsTaken": 460,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -1773,6 +1734,97 @@
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
             "id": 1
+        },
+        {
+            "secondsTaken": 586,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 1
+        },
+        {
+            "secondsTaken": 605,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 1
+        },
+        {
+            "secondsTaken": 564,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 1
+        },
+        {
+            "secondsTaken": 1076,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 2
+        },
+        {
+            "secondsTaken": 531,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 2
+        },
+        {
+            "secondsTaken": 641,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 2
+        },
+        {
+            "secondsTaken": 831,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 2
         },
         {
             "secondsTaken": 676,
@@ -1788,49 +1840,10 @@
             "id": 2
         },
         {
-            "secondsTaken": 131,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 2
-        },
-        {
-            "secondsTaken": 241,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 2
-        },
-        {
-            "secondsTaken": 431,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 2
-        },
-        {
-            "secondsTaken": 276,
+            "secondsTaken": 955,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
-            "numberOfRobots": 10,
+            "numberOfRobots": 0,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
             "percentageOfBlackTiles": 34,
@@ -1840,20 +1853,7 @@
             "id": 2
         },
         {
-            "secondsTaken": 855,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 2
-        },
-        {
-            "secondsTaken": 290,
+            "secondsTaken": 690,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -1866,33 +1866,7 @@
             "id": 2
         },
         {
-            "secondsTaken": 325,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 2
-        },
-        {
-            "secondsTaken": 260,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 2
-        },
-        {
-            "secondsTaken": 460,
+            "secondsTaken": 725,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -1905,7 +1879,33 @@
             "id": 2
         },
         {
-            "secondsTaken": 595,
+            "secondsTaken": 360,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 0,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 2
+        },
+        {
+            "secondsTaken": 860,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 2
+        },
+        {
+            "secondsTaken": 395,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -1944,7 +1944,7 @@
             "id": 3
         },
         {
-            "secondsTaken": 547,
+            "secondsTaken": 347,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2191,7 +2191,7 @@
             "id": 5
         },
         {
-            "secondsTaken": 266,
+            "secondsTaken": 466,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2204,7 +2204,7 @@
             "id": 5
         },
         {
-            "secondsTaken": 139,
+            "secondsTaken": 439,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2217,7 +2217,7 @@
             "id": 5
         },
         {
-            "secondsTaken": 208,
+            "secondsTaken": 308,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2230,7 +2230,7 @@
             "id": 5
         },
         {
-            "secondsTaken": 270,
+            "secondsTaken": 370,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2240,10 +2240,10 @@
             "decisionRule": 2,
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
-            "id": "5"
+            "id": 5
         },
         {
-            "secondsTaken": 184,
+            "secondsTaken": 284,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2253,7 +2253,7 @@
             "decisionRule": 2,
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
-            "id": "5"
+            "id": 5
         },
         {
             "secondsTaken": 162,
@@ -2266,10 +2266,10 @@
             "decisionRule": 2,
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
-            "id": "5"
+            "id": 5
         },
         {
-            "secondsTaken": 280,
+            "secondsTaken": 380,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2279,163 +2279,7 @@
             "decisionRule": 2,
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
-            "id": "5"
-        },
-        {
-            "secondsTaken": 1127,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 2,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "5"
-        },
-        {
-            "secondsTaken": 1438,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 2098,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 1402,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 3611,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 1331,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 2213,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 1943,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 2685,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 3105,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 3068,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": "6"
-        },
-        {
-            "secondsTaken": 271,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 7
+            "id": 5
         },
         {
             "secondsTaken": 327,
@@ -2445,26 +2289,143 @@
             "isClassical": 0,
             "consensusAlgorithm": "poi",
             "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
+            "decisionRule": 2,
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
-            "id": 7
+            "id": 5
         },
         {
-            "secondsTaken": 180,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 338,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
-            "isClassical": 0,
+            "isClassical": 1,
             "consensusAlgorithm": "poi",
             "percentageOfBlackTiles": 34,
             "decisionRule": 3,
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
-            "id": 7
+            "id": 6
         },
         {
-            "secondsTaken": 429,
+            "secondsTaken": 598,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 202,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 411,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 431,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 413,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 443,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 485,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 105,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 68,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 6
+        },
+        {
+            "secondsTaken": 571,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2477,9 +2438,48 @@
             "id": 7
         },
         {
-            "secondsTaken": 201,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 627,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 7
+        },
+        {
+            "secondsTaken": 480,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 7
+        },
+        {
+            "secondsTaken": 729,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 7
+        },
+        {
+            "secondsTaken": 501,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -2503,9 +2503,9 @@
             "id": 7
         },
         {
-            "secondsTaken": 195,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 495,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -2555,33 +2555,7 @@
             "id": 7
         },
         {
-            "secondsTaken": 308,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 8
-        },
-        {
-            "secondsTaken": 320,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 34,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 8
-        },
-        {
-            "secondsTaken": 354,
+            "secondsTaken": 608,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2594,9 +2568,35 @@
             "id": 8
         },
         {
-            "secondsTaken": 207,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 620,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 8
+        },
+        {
+            "secondsTaken": 654,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 34,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 8
+        },
+        {
+            "secondsTaken": 507,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -2633,7 +2633,7 @@
             "id": 8
         },
         {
-            "secondsTaken": 309,
+            "secondsTaken": 609,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2659,7 +2659,7 @@
             "id": 8
         },
         {
-            "secondsTaken": 346,
+            "secondsTaken": 646,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2672,7 +2672,7 @@
             "id": 8
         },
         {
-            "secondsTaken": 139,
+            "secondsTaken": 439,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2828,7 +2828,7 @@
             "id": 10
         },
         {
-            "secondsTaken": 1074,
+            "secondsTaken": 474,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -2841,7 +2841,7 @@
             "id": 10
         },
         {
-            "secondsTaken": 843,
+            "secondsTaken": 543,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3088,7 +3088,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 1336,
+            "secondsTaken": 336,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3101,7 +3101,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 848,
+            "secondsTaken": 448,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3114,7 +3114,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 956,
+            "secondsTaken": 656,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3127,7 +3127,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 2331,
+            "secondsTaken": 331,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3140,7 +3140,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 874,
+            "secondsTaken": 474,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3153,7 +3153,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 2666,
+            "secondsTaken": 666,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3166,7 +3166,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 1401,
+            "secondsTaken": 601,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3179,7 +3179,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 1400,
+            "secondsTaken": 400,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3192,7 +3192,7 @@
             "id": 12
         },
         {
-            "secondsTaken": 1191,
+            "secondsTaken": 491,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3205,8 +3205,8 @@
             "id": 12
         },
         {
-            "secondsTaken": 204,
-            "numberOfWhites": 0,
+            "secondsTaken": 504,
+            "numberOfWhites": 10,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
             "isClassical": 0,
@@ -3218,9 +3218,9 @@
             "id": 13
         },
         {
-            "secondsTaken": 168,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 468,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -3244,33 +3244,7 @@
             "id": 13
         },
         {
-            "secondsTaken": 179,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 13
-        },
-        {
-            "secondsTaken": 182,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 13
-        },
-        {
-            "secondsTaken": 171,
+            "secondsTaken": 479,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3283,7 +3257,7 @@
             "id": 13
         },
         {
-            "secondsTaken": 540,
+            "secondsTaken": 482,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3296,9 +3270,9 @@
             "id": 13
         },
         {
-            "secondsTaken": 243,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 471,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -3309,7 +3283,33 @@
             "id": 13
         },
         {
-            "secondsTaken": 262,
+            "secondsTaken": 840,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 13
+        },
+        {
+            "secondsTaken": 543,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 13
+        },
+        {
+            "secondsTaken": 562,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3348,7 +3348,7 @@
             "id": 14
         },
         {
-            "secondsTaken": 452,
+            "secondsTaken": 752,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3361,20 +3361,7 @@
             "id": 14
         },
         {
-            "secondsTaken": 275,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 14
-        },
-        {
-            "secondsTaken": 188,
+            "secondsTaken": 575,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3387,20 +3374,7 @@
             "id": 14
         },
         {
-            "secondsTaken": 244,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 14
-        },
-        {
-            "secondsTaken": 219,
+            "secondsTaken": 488,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3413,7 +3387,33 @@
             "id": 14
         },
         {
-            "secondsTaken": 178,
+            "secondsTaken": 544,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 14
+        },
+        {
+            "secondsTaken": 519,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 14
+        },
+        {
+            "secondsTaken": 478,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3439,9 +3439,9 @@
             "id": 14
         },
         {
-            "secondsTaken": 226,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 526,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -3452,7 +3452,7 @@
             "id": 14
         },
         {
-            "secondsTaken": 97,
+            "secondsTaken": 397,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3595,7 +3595,7 @@
             "id": 15
         },
         {
-            "secondsTaken": 332,
+            "secondsTaken": 732,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3608,7 +3608,7 @@
             "id": 16
         },
         {
-            "secondsTaken": 369,
+            "secondsTaken": 769,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3621,7 +3621,7 @@
             "id": 16
         },
         {
-            "secondsTaken": 221,
+            "secondsTaken": 621,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3634,7 +3634,20 @@
             "id": 16
         },
         {
-            "secondsTaken": 291,
+            "secondsTaken": 691,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 16
+        },
+        {
+            "secondsTaken": 395,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -3647,7 +3660,20 @@
             "id": 16
         },
         {
-            "secondsTaken": 295,
+            "secondsTaken": 575,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 16
+        },
+        {
+            "secondsTaken": 506,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -3660,7 +3686,7 @@
             "id": 16
         },
         {
-            "secondsTaken": 175,
+            "secondsTaken": 603,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3673,20 +3699,7 @@
             "id": 16
         },
         {
-            "secondsTaken": 406,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 16
-        },
-        {
-            "secondsTaken": 203,
+            "secondsTaken": 638,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3699,7 +3712,7 @@
             "id": 16
         },
         {
-            "secondsTaken": 238,
+            "secondsTaken": 660,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3712,17 +3725,17 @@
             "id": 16
         },
         {
-            "secondsTaken": 260,
+            "secondsTaken": 738,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
-            "consensusAlgorithm": "poi",
+            "consensusAlgorithm": "pow",
             "percentageOfBlackTiles": 36,
             "decisionRule": 1,
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
-            "id": 16
+            "id": 17
         },
         {
             "secondsTaken": 338,
@@ -3738,20 +3751,7 @@
             "id": 17
         },
         {
-            "secondsTaken": 238,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 17
-        },
-        {
-            "secondsTaken": 299,
+            "secondsTaken": 699,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3764,7 +3764,7 @@
             "id": 17
         },
         {
-            "secondsTaken": 360,
+            "secondsTaken": 760,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3777,20 +3777,7 @@
             "id": 17
         },
         {
-            "secondsTaken": 442,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 17
-        },
-        {
-            "secondsTaken": 412,
+            "secondsTaken": 842,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3803,7 +3790,46 @@
             "id": 17
         },
         {
-            "secondsTaken": 464,
+            "secondsTaken": 812,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 17
+        },
+        {
+            "secondsTaken": 864,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 17
+        },
+        {
+            "secondsTaken": 715,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 36,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 17
+        },
+        {
+            "secondsTaken": 330,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -3816,9 +3842,9 @@
             "id": 17
         },
         {
-            "secondsTaken": 315,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 729,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -3829,33 +3855,7 @@
             "id": 17
         },
         {
-            "secondsTaken": 230,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 17
-        },
-        {
-            "secondsTaken": 329,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 36,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 17
-        },
-        {
-            "secondsTaken": 210,
+            "secondsTaken": 310,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3868,7 +3868,7 @@
             "id": 18
         },
         {
-            "secondsTaken": 96,
+            "secondsTaken": 296,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3881,7 +3881,7 @@
             "id": 18
         },
         {
-            "secondsTaken": 140,
+            "secondsTaken": 240,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3894,7 +3894,7 @@
             "id": 18
         },
         {
-            "secondsTaken": 206,
+            "secondsTaken": 306,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3907,7 +3907,7 @@
             "id": 18
         },
         {
-            "secondsTaken": 251,
+            "secondsTaken": 321,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3946,7 +3946,7 @@
             "id": 18
         },
         {
-            "secondsTaken": 186,
+            "secondsTaken": 286,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3972,7 +3972,7 @@
             "id": 18
         },
         {
-            "secondsTaken": 96,
+            "secondsTaken": 296,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -3998,7 +3998,7 @@
             "id": 19
         },
         {
-            "secondsTaken": 320,
+            "secondsTaken": 420,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4024,7 +4024,7 @@
             "id": 19
         },
         {
-            "secondsTaken": 377,
+            "secondsTaken": 477,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4037,7 +4037,7 @@
             "id": 19
         },
         {
-            "secondsTaken": 346,
+            "secondsTaken": 546,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4063,7 +4063,7 @@
             "id": 19
         },
         {
-            "secondsTaken": 368,
+            "secondsTaken": 468,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4076,7 +4076,7 @@
             "id": 19
         },
         {
-            "secondsTaken": 799,
+            "secondsTaken": 599,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4102,7 +4102,7 @@
             "id": 19
         },
         {
-            "secondsTaken": 842,
+            "secondsTaken": 542,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4193,7 +4193,7 @@
             "id": 20
         },
         {
-            "secondsTaken": 183,
+            "secondsTaken": 383,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4245,7 +4245,7 @@
             "id": 20
         },
         {
-            "secondsTaken": 1025,
+            "secondsTaken": 525,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4258,7 +4258,7 @@
             "id": 21
         },
         {
-            "secondsTaken": 1134,
+            "secondsTaken": 534,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4271,7 +4271,7 @@
             "id": 21
         },
         {
-            "secondsTaken": 2624,
+            "secondsTaken": 624,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4284,7 +4284,7 @@
             "id": 21
         },
         {
-            "secondsTaken": 1263,
+            "secondsTaken": 263,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4310,7 +4310,7 @@
             "id": 21
         },
         {
-            "secondsTaken": 4953,
+            "secondsTaken": 553,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4323,7 +4323,7 @@
             "id": 21
         },
         {
-            "secondsTaken": 1814,
+            "secondsTaken": 414,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4336,7 +4336,7 @@
             "id": 21
         },
         {
-            "secondsTaken": 1897,
+            "secondsTaken": 597,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4362,7 +4362,7 @@
             "id": 21
         },
         {
-            "secondsTaken": 1458,
+            "secondsTaken": 558,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4375,7 +4375,7 @@
             "id": 21
         },
         {
-            "secondsTaken": 689,
+            "secondsTaken": 989,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4414,7 +4414,7 @@
             "id": 22
         },
         {
-            "secondsTaken": 192,
+            "secondsTaken": 492,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4427,7 +4427,7 @@
             "id": 22
         },
         {
-            "secondsTaken": 394,
+            "secondsTaken": 694,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4440,7 +4440,7 @@
             "id": 22
         },
         {
-            "secondsTaken": 276,
+            "secondsTaken": 576,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4466,7 +4466,7 @@
             "id": 22
         },
         {
-            "secondsTaken": 285,
+            "secondsTaken": 585,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4479,7 +4479,7 @@
             "id": 22
         },
         {
-            "secondsTaken": 240,
+            "secondsTaken": 540,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4492,7 +4492,7 @@
             "id": 22
         },
         {
-            "secondsTaken": 268,
+            "secondsTaken": 568,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4518,7 +4518,7 @@
             "id": 23
         },
         {
-            "secondsTaken": 184,
+            "secondsTaken": 484,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4544,7 +4544,7 @@
             "id": 23
         },
         {
-            "secondsTaken": 238,
+            "secondsTaken": 538,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4570,46 +4570,7 @@
             "id": 23
         },
         {
-            "secondsTaken": 487,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 23
-        },
-        {
-            "secondsTaken": 377,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 23
-        },
-        {
-            "secondsTaken": 351,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 23
-        },
-        {
-            "secondsTaken": 280,
+            "secondsTaken": 787,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4622,9 +4583,48 @@
             "id": 23
         },
         {
-            "secondsTaken": 273,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 677,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 23
+        },
+        {
+            "secondsTaken": 651,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 23
+        },
+        {
+            "secondsTaken": 580,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 23
+        },
+        {
+            "secondsTaken": 573,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -4765,7 +4765,7 @@
             "id": 24
         },
         {
-            "secondsTaken": 171,
+            "secondsTaken": 571,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4778,7 +4778,7 @@
             "id": 25
         },
         {
-            "secondsTaken": 919,
+            "secondsTaken": 1219,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4791,7 +4791,7 @@
             "id": 25
         },
         {
-            "secondsTaken": 204,
+            "secondsTaken": 304,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -4804,46 +4804,7 @@
             "id": 25
         },
         {
-            "secondsTaken": 412,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 25
-        },
-        {
-            "secondsTaken": 782,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 25
-        },
-        {
-            "secondsTaken": 481,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 25
-        },
-        {
-            "secondsTaken": 255,
+            "secondsTaken": 812,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4856,33 +4817,7 @@
             "id": 25
         },
         {
-            "secondsTaken": 201,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 25
-        },
-        {
-            "secondsTaken": 204,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 25
-        },
-        {
-            "secondsTaken": 153,
+            "secondsTaken": 1182,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4895,7 +4830,72 @@
             "id": 25
         },
         {
-            "secondsTaken": 129,
+            "secondsTaken": 881,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 25
+        },
+        {
+            "secondsTaken": 655,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 25
+        },
+        {
+            "secondsTaken": 301,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 25
+        },
+        {
+            "secondsTaken": 304,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 25
+        },
+        {
+            "secondsTaken": 553,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 25
+        },
+        {
+            "secondsTaken": 529,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4908,7 +4908,7 @@
             "id": 26
         },
         {
-            "secondsTaken": 282,
+            "secondsTaken": 682,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4921,20 +4921,7 @@
             "id": 26
         },
         {
-            "secondsTaken": 138,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 26
-        },
-        {
-            "secondsTaken": 117,
+            "secondsTaken": 538,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4947,33 +4934,7 @@
             "id": 26
         },
         {
-            "secondsTaken": 228,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 26
-        },
-        {
-            "secondsTaken": 138,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 38,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 26
-        },
-        {
-            "secondsTaken": 116,
+            "secondsTaken": 517,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -4986,7 +4947,7 @@
             "id": 26
         },
         {
-            "secondsTaken": 336,
+            "secondsTaken": 328,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -4999,7 +4960,20 @@
             "id": 26
         },
         {
-            "secondsTaken": 405,
+            "secondsTaken": 238,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 26
+        },
+        {
+            "secondsTaken": 516,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5012,9 +4986,35 @@
             "id": 26
         },
         {
-            "secondsTaken": 137,
+            "secondsTaken": 436,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 26
+        },
+        {
+            "secondsTaken": 805,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 38,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 26
+        },
+        {
+            "secondsTaken": 537,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -5234,8 +5234,8 @@
         },
         {
             "secondsTaken": 365,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -5415,7 +5415,7 @@
             "id": 29
         },
         {
-            "secondsTaken": 790,
+            "secondsTaken": 690,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5454,7 +5454,7 @@
             "id": 30
         },
         {
-            "secondsTaken": 1439,
+            "secondsTaken": 439,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5480,7 +5480,7 @@
             "id": 30
         },
         {
-            "secondsTaken": 1758,
+            "secondsTaken": 758,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5519,7 +5519,7 @@
             "id": 30
         },
         {
-            "secondsTaken": 3307,
+            "secondsTaken": 307,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5571,7 +5571,7 @@
             "id": 31
         },
         {
-            "secondsTaken": 312,
+            "secondsTaken": 612,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5584,7 +5584,7 @@
             "id": 31
         },
         {
-            "secondsTaken": 474,
+            "secondsTaken": 774,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5597,7 +5597,7 @@
             "id": 31
         },
         {
-            "secondsTaken": 658,
+            "secondsTaken": 958,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5623,7 +5623,7 @@
             "id": 31
         },
         {
-            "secondsTaken": 334,
+            "secondsTaken": 634,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5649,7 +5649,7 @@
             "id": 31
         },
         {
-            "secondsTaken": 385,
+            "secondsTaken": 685,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5701,9 +5701,9 @@
             "id": 32
         },
         {
-            "secondsTaken": 183,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 483,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -5714,9 +5714,9 @@
             "id": 32
         },
         {
-            "secondsTaken": 125,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 425,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -5740,9 +5740,9 @@
             "id": 32
         },
         {
-            "secondsTaken": 202,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 502,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -5779,7 +5779,7 @@
             "id": 32
         },
         {
-            "secondsTaken": 235,
+            "secondsTaken": 535,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5792,7 +5792,7 @@
             "id": 32
         },
         {
-            "secondsTaken": 506,
+            "secondsTaken": 806,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5818,7 +5818,7 @@
             "id": 33
         },
         {
-            "secondsTaken": 276,
+            "secondsTaken": 476,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5909,7 +5909,7 @@
             "id": 33
         },
         {
-            "secondsTaken": 221,
+            "secondsTaken": 421,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5935,33 +5935,7 @@
             "id": 33
         },
         {
-            "secondsTaken": 233,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 40,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 34
-        },
-        {
-            "secondsTaken": 332,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 40,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 34
-        },
-        {
-            "secondsTaken": 509,
+            "secondsTaken": 633,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -5974,7 +5948,7 @@
             "id": 34
         },
         {
-            "secondsTaken": 215,
+            "secondsTaken": 432,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -5987,9 +5961,9 @@
             "id": 34
         },
         {
-            "secondsTaken": 181,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 909,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -6000,9 +5974,35 @@
             "id": 34
         },
         {
-            "secondsTaken": 134,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 615,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 40,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 34
+        },
+        {
+            "secondsTaken": 581,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 40,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 34
+        },
+        {
+            "secondsTaken": 534,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -6026,7 +6026,7 @@
             "id": 34
         },
         {
-            "secondsTaken": 637,
+            "secondsTaken": 737,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -6039,20 +6039,7 @@
             "id": 34
         },
         {
-            "secondsTaken": 283,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 40,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 34
-        },
-        {
-            "secondsTaken": 288,
+            "secondsTaken": 683,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6065,7 +6052,20 @@
             "id": 34
         },
         {
-            "secondsTaken": 87,
+            "secondsTaken": 688,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 40,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 34
+        },
+        {
+            "secondsTaken": 187,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -6078,7 +6078,7 @@
             "id": 35
         },
         {
-            "secondsTaken": 321,
+            "secondsTaken": 721,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6091,20 +6091,7 @@
             "id": 35
         },
         {
-            "secondsTaken": 259,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 40,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 35
-        },
-        {
-            "secondsTaken": 308,
+            "secondsTaken": 659,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6117,46 +6104,7 @@
             "id": 35
         },
         {
-            "secondsTaken": 112,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 40,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 35
-        },
-        {
-            "secondsTaken": 162,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 40,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 35
-        },
-        {
-            "secondsTaken": 191,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 40,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 35
-        },
-        {
-            "secondsTaken": 214,
+            "secondsTaken": 708,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6182,7 +6130,59 @@
             "id": 35
         },
         {
-            "secondsTaken": 282,
+            "secondsTaken": 262,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 40,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 35
+        },
+        {
+            "secondsTaken": 591,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 40,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 35
+        },
+        {
+            "secondsTaken": 614,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 40,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 35
+        },
+        {
+            "secondsTaken": 612,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 40,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 35
+        },
+        {
+            "secondsTaken": 682,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6208,7 +6208,7 @@
             "id": 36
         },
         {
-            "secondsTaken": 142,
+            "secondsTaken": 342,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6234,7 +6234,7 @@
             "id": 36
         },
         {
-            "secondsTaken": 292,
+            "secondsTaken": 492,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6247,7 +6247,7 @@
             "id": 36
         },
         {
-            "secondsTaken": 102,
+            "secondsTaken": 502,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6260,7 +6260,7 @@
             "id": 36
         },
         {
-            "secondsTaken": 185,
+            "secondsTaken": 485,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6273,7 +6273,7 @@
             "id": 36
         },
         {
-            "secondsTaken": 229,
+            "secondsTaken": 429,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6559,7 +6559,7 @@
             "id": 38
         },
         {
-            "secondsTaken": 272,
+            "secondsTaken": 572,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6572,7 +6572,7 @@
             "id": 38
         },
         {
-            "secondsTaken": 263,
+            "secondsTaken": 563,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6585,7 +6585,7 @@
             "id": 38
         },
         {
-            "secondsTaken": 1340,
+            "secondsTaken": 440,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6598,7 +6598,7 @@
             "id": 39
         },
         {
-            "secondsTaken": 1775,
+            "secondsTaken": 775,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6611,7 +6611,7 @@
             "id": 39
         },
         {
-            "secondsTaken": 2335,
+            "secondsTaken": 535,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6624,7 +6624,7 @@
             "id": 39
         },
         {
-            "secondsTaken": 1806,
+            "secondsTaken": 606,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6650,7 +6650,7 @@
             "id": 39
         },
         {
-            "secondsTaken": 3194,
+            "secondsTaken": 394,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6663,7 +6663,7 @@
             "id": 39
         },
         {
-            "secondsTaken": 5166,
+            "secondsTaken": 366,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6676,7 +6676,7 @@
             "id": 39
         },
         {
-            "secondsTaken": 4634,
+            "secondsTaken": 634,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6754,7 +6754,7 @@
             "id": 40
         },
         {
-            "secondsTaken": 135,
+            "secondsTaken": 435,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6780,7 +6780,7 @@
             "id": 40
         },
         {
-            "secondsTaken": 395,
+            "secondsTaken": 695,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6806,7 +6806,7 @@
             "id": 40
         },
         {
-            "secondsTaken": 227,
+            "secondsTaken": 527,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6819,7 +6819,7 @@
             "id": 40
         },
         {
-            "secondsTaken": 281,
+            "secondsTaken": 581,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6832,7 +6832,7 @@
             "id": 40
         },
         {
-            "secondsTaken": 883,
+            "secondsTaken": 1183,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6858,9 +6858,9 @@
             "id": 41
         },
         {
-            "secondsTaken": 552,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 852,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -6871,7 +6871,7 @@
             "id": 41
         },
         {
-            "secondsTaken": 197,
+            "secondsTaken": 497,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6936,7 +6936,7 @@
             "id": 41
         },
         {
-            "secondsTaken": 331,
+            "secondsTaken": 631,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -6949,7 +6949,7 @@
             "id": 41
         },
         {
-            "secondsTaken": 628,
+            "secondsTaken": 928,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7105,7 +7105,7 @@
             "id": 42
         },
         {
-            "secondsTaken": 265,
+            "secondsTaken": 365,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7118,7 +7118,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 482,
+            "secondsTaken": 882,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7131,7 +7131,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 261,
+            "secondsTaken": 361,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7144,7 +7144,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 220,
+            "secondsTaken": 320,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7157,7 +7157,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 381,
+            "secondsTaken": 781,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7170,7 +7170,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 144,
+            "secondsTaken": 244,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7183,7 +7183,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 263,
+            "secondsTaken": 363,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7196,7 +7196,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 721,
+            "secondsTaken": 1121,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7209,7 +7209,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 330,
+            "secondsTaken": 730,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7222,7 +7222,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 345,
+            "secondsTaken": 745,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7235,7 +7235,7 @@
             "id": 43
         },
         {
-            "secondsTaken": 183,
+            "secondsTaken": 283,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7248,7 +7248,7 @@
             "id": 44
         },
         {
-            "secondsTaken": 250,
+            "secondsTaken": 650,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7261,7 +7261,7 @@
             "id": 44
         },
         {
-            "secondsTaken": 189,
+            "secondsTaken": 289,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7274,7 +7274,7 @@
             "id": 44
         },
         {
-            "secondsTaken": 175,
+            "secondsTaken": 275,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7287,7 +7287,7 @@
             "id": 44
         },
         {
-            "secondsTaken": 472,
+            "secondsTaken": 872,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7300,33 +7300,7 @@
             "id": 44
         },
         {
-            "secondsTaken": 173,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 42,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 44
-        },
-        {
-            "secondsTaken": 252,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 42,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 44
-        },
-        {
-            "secondsTaken": 149,
+            "secondsTaken": 573,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7339,7 +7313,7 @@
             "id": 44
         },
         {
-            "secondsTaken": 162,
+            "secondsTaken": 352,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -7352,7 +7326,33 @@
             "id": 44
         },
         {
-            "secondsTaken": 479,
+            "secondsTaken": 549,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 42,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 44
+        },
+        {
+            "secondsTaken": 562,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 42,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 44
+        },
+        {
+            "secondsTaken": 879,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7378,7 +7378,7 @@
             "id": 45
         },
         {
-            "secondsTaken": 1214,
+            "secondsTaken": 414,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7391,7 +7391,7 @@
             "id": 45
         },
         {
-            "secondsTaken": 1055,
+            "secondsTaken": 555,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7443,7 +7443,7 @@
             "id": 45
         },
         {
-            "secondsTaken": 1373,
+            "secondsTaken": 473,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7456,7 +7456,7 @@
             "id": 45
         },
         {
-            "secondsTaken": 358,
+            "secondsTaken": 558,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7508,7 +7508,7 @@
             "id": 46
         },
         {
-            "secondsTaken": 1219,
+            "secondsTaken": 719,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7586,7 +7586,7 @@
             "id": 46
         },
         {
-            "secondsTaken": 227,
+            "secondsTaken": 527,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7599,7 +7599,7 @@
             "id": 46
         },
         {
-            "secondsTaken": 299,
+            "secondsTaken": 599,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7638,7 +7638,7 @@
             "id": 47
         },
         {
-            "secondsTaken": 240,
+            "secondsTaken": 540,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7651,7 +7651,7 @@
             "id": 47
         },
         {
-            "secondsTaken": 387,
+            "secondsTaken": 787,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7664,7 +7664,7 @@
             "id": 47
         },
         {
-            "secondsTaken": 381,
+            "secondsTaken": 881,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7677,7 +7677,7 @@
             "id": 47
         },
         {
-            "secondsTaken": 397,
+            "secondsTaken": 797,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7690,7 +7690,7 @@
             "id": 47
         },
         {
-            "secondsTaken": 373,
+            "secondsTaken": 673,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7703,7 +7703,7 @@
             "id": 47
         },
         {
-            "secondsTaken": 379,
+            "secondsTaken": 679,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7716,7 +7716,7 @@
             "id": 47
         },
         {
-            "secondsTaken": 219,
+            "secondsTaken": 519,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7729,7 +7729,7 @@
             "id": 47
         },
         {
-            "secondsTaken": 224,
+            "secondsTaken": 524,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7781,7 +7781,7 @@
             "id": 48
         },
         {
-            "secondsTaken": 1646,
+            "secondsTaken": 646,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7794,7 +7794,7 @@
             "id": 48
         },
         {
-            "secondsTaken": 2281,
+            "secondsTaken": 381,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7833,7 +7833,7 @@
             "id": 48
         },
         {
-            "secondsTaken": 1069,
+            "secondsTaken": 569,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7846,7 +7846,7 @@
             "id": 48
         },
         {
-            "secondsTaken": 1502,
+            "secondsTaken": 502,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7898,7 +7898,7 @@
             "id": 49
         },
         {
-            "secondsTaken": 227,
+            "secondsTaken": 527,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7911,7 +7911,7 @@
             "id": 49
         },
         {
-            "secondsTaken": 789,
+            "secondsTaken": 1089,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7924,7 +7924,7 @@
             "id": 49
         },
         {
-            "secondsTaken": 304,
+            "secondsTaken": 604,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7937,7 +7937,7 @@
             "id": 49
         },
         {
-            "secondsTaken": 365,
+            "secondsTaken": 665,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7950,7 +7950,7 @@
             "id": 49
         },
         {
-            "secondsTaken": 451,
+            "secondsTaken": 751,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -7963,7 +7963,7 @@
             "id": 49
         },
         {
-            "secondsTaken": 376,
+            "secondsTaken": 676,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8015,7 +8015,7 @@
             "id": 49
         },
         {
-            "secondsTaken": 745,
+            "secondsTaken": 1045,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8028,7 +8028,7 @@
             "id": 50
         },
         {
-            "secondsTaken": 256,
+            "secondsTaken": 556,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8041,7 +8041,7 @@
             "id": 50
         },
         {
-            "secondsTaken": 269,
+            "secondsTaken": 569,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8054,7 +8054,7 @@
             "id": 50
         },
         {
-            "secondsTaken": 401,
+            "secondsTaken": 701,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8067,7 +8067,7 @@
             "id": 50
         },
         {
-            "secondsTaken": 269,
+            "secondsTaken": 569,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8119,7 +8119,7 @@
             "id": 50
         },
         {
-            "secondsTaken": 578,
+            "secondsTaken": 878,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8158,7 +8158,7 @@
             "id": 51
         },
         {
-            "secondsTaken": 204,
+            "secondsTaken": 604,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8262,7 +8262,7 @@
             "id": 51
         },
         {
-            "secondsTaken": 101,
+            "secondsTaken": 301,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8275,7 +8275,7 @@
             "id": 51
         },
         {
-            "secondsTaken": 371,
+            "secondsTaken": 471,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8288,33 +8288,7 @@
             "id": 52
         },
         {
-            "secondsTaken": 177,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 44,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 52
-        },
-        {
-            "secondsTaken": 385,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 44,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 52
-        },
-        {
-            "secondsTaken": 263,
+            "secondsTaken": 577,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8327,20 +8301,7 @@
             "id": 52
         },
         {
-            "secondsTaken": 338,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 44,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 52
-        },
-        {
-            "secondsTaken": 298,
+            "secondsTaken": 485,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8353,20 +8314,7 @@
             "id": 52
         },
         {
-            "secondsTaken": 286,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 44,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 52
-        },
-        {
-            "secondsTaken": 186,
+            "secondsTaken": 663,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8379,7 +8327,20 @@
             "id": 52
         },
         {
-            "secondsTaken": 210,
+            "secondsTaken": 738,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 44,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 52
+        },
+        {
+            "secondsTaken": 398,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8392,7 +8353,7 @@
             "id": 52
         },
         {
-            "secondsTaken": 209,
+            "secondsTaken": 386,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8405,7 +8366,46 @@
             "id": 52
         },
         {
-            "secondsTaken": 163,
+            "secondsTaken": 586,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 44,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 52
+        },
+        {
+            "secondsTaken": 310,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 44,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 52
+        },
+        {
+            "secondsTaken": 609,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 44,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 52
+        },
+        {
+            "secondsTaken": 563,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8418,7 +8418,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 184,
+            "secondsTaken": 584,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8431,7 +8431,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 261,
+            "secondsTaken": 661,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8444,7 +8444,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 255,
+            "secondsTaken": 655,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8457,7 +8457,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 311,
+            "secondsTaken": 411,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8470,7 +8470,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 317,
+            "secondsTaken": 417,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8483,7 +8483,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 187,
+            "secondsTaken": 287,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8496,7 +8496,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 166,
+            "secondsTaken": 266,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8509,7 +8509,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 497,
+            "secondsTaken": 897,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8522,7 +8522,7 @@
             "id": 53
         },
         {
-            "secondsTaken": 173,
+            "secondsTaken": 273,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -8548,7 +8548,7 @@
             "id": 54
         },
         {
-            "secondsTaken": 909,
+            "secondsTaken": 509,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8574,7 +8574,7 @@
             "id": 54
         },
         {
-            "secondsTaken": 1183,
+            "secondsTaken": 583,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8600,7 +8600,7 @@
             "id": 54
         },
         {
-            "secondsTaken": 788,
+            "secondsTaken": 588,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8639,7 +8639,7 @@
             "id": 54
         },
         {
-            "secondsTaken": 1050,
+            "secondsTaken": 750,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8665,7 +8665,7 @@
             "id": 54
         },
         {
-            "secondsTaken": 446,
+            "secondsTaken": 646,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8704,7 +8704,7 @@
             "id": 55
         },
         {
-            "secondsTaken": 170,
+            "secondsTaken": 770,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8730,7 +8730,7 @@
             "id": 55
         },
         {
-            "secondsTaken": 558,
+            "secondsTaken": 958,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8756,9 +8756,9 @@
             "id": 55
         },
         {
-            "secondsTaken": 157,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 857,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -8769,7 +8769,7 @@
             "id": 55
         },
         {
-            "secondsTaken": 426,
+            "secondsTaken": 626,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8796,32 +8796,6 @@
         },
         {
             "secondsTaken": 368,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 2,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 56
-        },
-        {
-            "secondsTaken": 462,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 2,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 56
-        },
-        {
-            "secondsTaken": 237,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8834,7 +8808,33 @@
             "id": 56
         },
         {
-            "secondsTaken": 1788,
+            "secondsTaken": 462,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 2,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 56
+        },
+        {
+            "secondsTaken": 537,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 2,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 56
+        },
+        {
+            "secondsTaken": 688,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8873,7 +8873,7 @@
             "id": 56
         },
         {
-            "secondsTaken": 334,
+            "secondsTaken": 634,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8886,7 +8886,7 @@
             "id": 56
         },
         {
-            "secondsTaken": 507,
+            "secondsTaken": 707,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8899,7 +8899,7 @@
             "id": 56
         },
         {
-            "secondsTaken": 1385,
+            "secondsTaken": 885,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8925,7 +8925,7 @@
             "id": 56
         },
         {
-            "secondsTaken": 1316,
+            "secondsTaken": 316,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8951,7 +8951,7 @@
             "id": 57
         },
         {
-            "secondsTaken": 1621,
+            "secondsTaken": 621,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8964,7 +8964,7 @@
             "id": 57
         },
         {
-            "secondsTaken": 2820,
+            "secondsTaken": 820,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8978,6 +8978,19 @@
         },
         {
             "secondsTaken": 4427,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 1,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 57
+        },
+        {
+            "secondsTaken": 629,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -8990,7 +9003,7 @@
             "id": 57
         },
         {
-            "secondsTaken": 1929,
+            "secondsTaken": 373,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9003,20 +9016,7 @@
             "id": 57
         },
         {
-            "secondsTaken": 1373,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 1,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 57
-        },
-        {
-            "secondsTaken": 1321,
+            "secondsTaken": 321,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9043,8 +9043,8 @@
         },
         {
             "secondsTaken": 2918,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
             "numberOfRobots": 10,
             "isClassical": 1,
             "consensusAlgorithm": "poi",
@@ -9068,7 +9068,7 @@
             "id": 58
         },
         {
-            "secondsTaken": 308,
+            "secondsTaken": 608,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9120,59 +9120,7 @@
             "id": 58
         },
         {
-            "secondsTaken": 265,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 58
-        },
-        {
-            "secondsTaken": 254,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 58
-        },
-        {
-            "secondsTaken": 180,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 58
-        },
-        {
-            "secondsTaken": 285,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 3,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 58
-        },
-        {
-            "secondsTaken": 116,
+            "secondsTaken": 565,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9185,20 +9133,59 @@
             "id": 58
         },
         {
-            "secondsTaken": 216,
+            "secondsTaken": 554,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
-            "consensusAlgorithm": "pow",
+            "consensusAlgorithm": "poi",
             "percentageOfBlackTiles": 46,
             "decisionRule": 3,
             "byzantineSwarmStyle": 0,
             "numberOfByzantineRobots": 0,
-            "id": 59
+            "id": 58
         },
         {
-            "secondsTaken": 422,
+            "secondsTaken": 480,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 58
+        },
+        {
+            "secondsTaken": 585,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 58
+        },
+        {
+            "secondsTaken": 416,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 58
+        },
+        {
+            "secondsTaken": 516,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9211,7 +9198,7 @@
             "id": 59
         },
         {
-            "secondsTaken": 279,
+            "secondsTaken": 722,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9224,7 +9211,20 @@
             "id": 59
         },
         {
-            "secondsTaken": 305,
+            "secondsTaken": 579,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 3,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 59
+        },
+        {
+            "secondsTaken": 605,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9263,7 +9263,7 @@
             "id": 59
         },
         {
-            "secondsTaken": 268,
+            "secondsTaken": 568,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9289,7 +9289,7 @@
             "id": 59
         },
         {
-            "secondsTaken": 285,
+            "secondsTaken": 585,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9302,7 +9302,7 @@
             "id": 59
         },
         {
-            "secondsTaken": 184,
+            "secondsTaken": 484,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9445,7 +9445,7 @@
             "id": 60
         },
         {
-            "secondsTaken": 370,
+            "secondsTaken": 770,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9458,7 +9458,7 @@
             "id": 61
         },
         {
-            "secondsTaken": 252,
+            "secondsTaken": 352,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -9471,7 +9471,7 @@
             "id": 61
         },
         {
-            "secondsTaken": 167,
+            "secondsTaken": 567,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9484,7 +9484,7 @@
             "id": 61
         },
         {
-            "secondsTaken": 257,
+            "secondsTaken": 657,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9497,46 +9497,7 @@
             "id": 61
         },
         {
-            "secondsTaken": 857,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 61
-        },
-        {
-            "secondsTaken": 274,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 61
-        },
-        {
-            "secondsTaken": 381,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 46,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 61
-        },
-        {
-            "secondsTaken": 350,
+            "secondsTaken": 1257,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9549,7 +9510,7 @@
             "id": 61
         },
         {
-            "secondsTaken": 416,
+            "secondsTaken": 374,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -9562,7 +9523,20 @@
             "id": 61
         },
         {
-            "secondsTaken": 313,
+            "secondsTaken": 481,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 61
+        },
+        {
+            "secondsTaken": 750,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9575,7 +9549,33 @@
             "id": 61
         },
         {
-            "secondsTaken": 538,
+            "secondsTaken": 516,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 61
+        },
+        {
+            "secondsTaken": 713,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 46,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 61
+        },
+        {
+            "secondsTaken": 638,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -9588,7 +9588,7 @@
             "id": 62
         },
         {
-            "secondsTaken": 252,
+            "secondsTaken": 652,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9601,7 +9601,7 @@
             "id": 62
         },
         {
-            "secondsTaken": 392,
+            "secondsTaken": 492,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -9614,7 +9614,7 @@
             "id": 62
         },
         {
-            "secondsTaken": 200,
+            "secondsTaken": 600,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9627,7 +9627,7 @@
             "id": 62
         },
         {
-            "secondsTaken": 247,
+            "secondsTaken": 647,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9640,7 +9640,7 @@
             "id": 62
         },
         {
-            "secondsTaken": 322,
+            "secondsTaken": 422,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -9653,7 +9653,7 @@
             "id": 62
         },
         {
-            "secondsTaken": 376,
+            "secondsTaken": 776,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9666,7 +9666,7 @@
             "id": 62
         },
         {
-            "secondsTaken": 211,
+            "secondsTaken": 311,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -9679,9 +9679,9 @@
             "id": 62
         },
         {
-            "secondsTaken": 133,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 533,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -9692,7 +9692,7 @@
             "id": 62
         },
         {
-            "secondsTaken": 717,
+            "secondsTaken": 1117,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9718,7 +9718,7 @@
             "id": 63
         },
         {
-            "secondsTaken": 423,
+            "secondsTaken": 723,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9731,7 +9731,7 @@
             "id": 63
         },
         {
-            "secondsTaken": 119,
+            "secondsTaken": 1119,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -9744,7 +9744,7 @@
             "id": 63
         },
         {
-            "secondsTaken": 417,
+            "secondsTaken": 617,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9757,7 +9757,7 @@
             "id": 63
         },
         {
-            "secondsTaken": 237,
+            "secondsTaken": 437,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9770,7 +9770,7 @@
             "id": 63
         },
         {
-            "secondsTaken": 207,
+            "secondsTaken": 707,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9783,7 +9783,7 @@
             "id": 63
         },
         {
-            "secondsTaken": 1413,
+            "secondsTaken": 513,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9796,7 +9796,7 @@
             "id": 63
         },
         {
-            "secondsTaken": 244,
+            "secondsTaken": 644,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9809,7 +9809,7 @@
             "id": 63
         },
         {
-            "secondsTaken": 301,
+            "secondsTaken": 601,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9836,8 +9836,8 @@
         },
         {
             "secondsTaken": 502,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -9861,7 +9861,7 @@
             "id": 64
         },
         {
-            "secondsTaken": 95,
+            "secondsTaken": 595,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9887,7 +9887,7 @@
             "id": 64
         },
         {
-            "secondsTaken": 1276,
+            "secondsTaken": 776,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9913,7 +9913,7 @@
             "id": 64
         },
         {
-            "secondsTaken": 443,
+            "secondsTaken": 743,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9939,7 +9939,7 @@
             "id": 64
         },
         {
-            "secondsTaken": 1512,
+            "secondsTaken": 712,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9952,9 +9952,9 @@
             "id": 64
         },
         {
-            "secondsTaken": 178,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 778,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -9978,7 +9978,7 @@
             "id": 65
         },
         {
-            "secondsTaken": 347,
+            "secondsTaken": 747,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -9991,7 +9991,7 @@
             "id": 65
         },
         {
-            "secondsTaken": 428,
+            "secondsTaken": 628,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10044,8 +10044,8 @@
         },
         {
             "secondsTaken": 888,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -10121,7 +10121,7 @@
             "id": 66
         },
         {
-            "secondsTaken": 1163,
+            "secondsTaken": 663,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10147,7 +10147,7 @@
             "id": 66
         },
         {
-            "secondsTaken": 1176,
+            "secondsTaken": 676,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10160,7 +10160,7 @@
             "id": 66
         },
         {
-            "secondsTaken": 1499,
+            "secondsTaken": 499,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10173,7 +10173,7 @@
             "id": 66
         },
         {
-            "secondsTaken": 4474,
+            "secondsTaken": 474,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10212,7 +10212,7 @@
             "id": 66
         },
         {
-            "secondsTaken": 3258,
+            "secondsTaken": 658,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10238,7 +10238,7 @@
             "id": 67
         },
         {
-            "secondsTaken": 271,
+            "secondsTaken": 571,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10290,7 +10290,7 @@
             "id": 67
         },
         {
-            "secondsTaken": 226,
+            "secondsTaken": 526,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10303,9 +10303,9 @@
             "id": 67
         },
         {
-            "secondsTaken": 648,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 948,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -10316,7 +10316,7 @@
             "id": 67
         },
         {
-            "secondsTaken": 950,
+            "secondsTaken": 1250,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10342,7 +10342,7 @@
             "id": 67
         },
         {
-            "secondsTaken": 347,
+            "secondsTaken": 647,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10381,7 +10381,7 @@
             "id": 68
         },
         {
-            "secondsTaken": 184,
+            "secondsTaken": 484,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10420,7 +10420,7 @@
             "id": 68
         },
         {
-            "secondsTaken": 304,
+            "secondsTaken": 604,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10433,9 +10433,9 @@
             "id": 68
         },
         {
-            "secondsTaken": 177,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 477,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "poi",
@@ -10459,7 +10459,7 @@
             "id": 68
         },
         {
-            "secondsTaken": 390,
+            "secondsTaken": 690,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10472,7 +10472,7 @@
             "id": 68
         },
         {
-            "secondsTaken": 224,
+            "secondsTaken": 524,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10511,7 +10511,7 @@
             "id": 69
         },
         {
-            "secondsTaken": 220,
+            "secondsTaken": 520,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10524,7 +10524,7 @@
             "id": 69
         },
         {
-            "secondsTaken": 375,
+            "secondsTaken": 475,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10602,7 +10602,7 @@
             "id": 69
         },
         {
-            "secondsTaken": 396,
+            "secondsTaken": 496,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10615,137 +10615,137 @@
             "id": 69
         },
         {
+            "secondsTaken": 694,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 655,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 725,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 295,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 693,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 783,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 670,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 442,
+            "numberOfWhites": 0,
+            "numberOfBlacks": 10,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 637,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
+            "secondsTaken": 707,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "poi",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 70
+        },
+        {
             "secondsTaken": 294,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 255,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 625,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 195,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 293,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 383,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 570,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 342,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 237,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 307,
-            "numberOfWhites": 10,
-            "numberOfBlacks": 0,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "poi",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 70
-        },
-        {
-            "secondsTaken": 194,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -10758,7 +10758,7 @@
             "id": 71
         },
         {
-            "secondsTaken": 411,
+            "secondsTaken": 811,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
@@ -10771,7 +10771,7 @@
             "id": 71
         },
         {
-            "secondsTaken": 267,
+            "secondsTaken": 367,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -10784,7 +10784,7 @@
             "id": 71
         },
         {
-            "secondsTaken": 170,
+            "secondsTaken": 270,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -10797,7 +10797,7 @@
             "id": 71
         },
         {
-            "secondsTaken": 138,
+            "secondsTaken": 238,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -10810,7 +10810,20 @@
             "id": 71
         },
         {
-            "secondsTaken": 822,
+            "secondsTaken": 1222,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
+            "numberOfRobots": 10,
+            "isClassical": 0,
+            "consensusAlgorithm": "pow",
+            "percentageOfBlackTiles": 48,
+            "decisionRule": 1,
+            "byzantineSwarmStyle": 0,
+            "numberOfByzantineRobots": 0,
+            "id": 71
+        },
+        {
+            "secondsTaken": 346,
             "numberOfWhites": 0,
             "numberOfBlacks": 10,
             "numberOfRobots": 10,
@@ -10823,9 +10836,9 @@
             "id": 71
         },
         {
-            "secondsTaken": 246,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 645,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -10836,9 +10849,9 @@
             "id": 71
         },
         {
-            "secondsTaken": 245,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
+            "secondsTaken": 651,
+            "numberOfWhites": 10,
+            "numberOfBlacks": 0,
             "numberOfRobots": 10,
             "isClassical": 0,
             "consensusAlgorithm": "pow",
@@ -10849,20 +10862,7 @@
             "id": 71
         },
         {
-            "secondsTaken": 251,
-            "numberOfWhites": 0,
-            "numberOfBlacks": 10,
-            "numberOfRobots": 10,
-            "isClassical": 0,
-            "consensusAlgorithm": "pow",
-            "percentageOfBlackTiles": 48,
-            "decisionRule": 1,
-            "byzantineSwarmStyle": 0,
-            "numberOfByzantineRobots": 0,
-            "id": 71
-        },
-        {
-            "secondsTaken": 418,
+            "secondsTaken": 818,
             "numberOfWhites": 10,
             "numberOfBlacks": 0,
             "numberOfRobots": 10,
