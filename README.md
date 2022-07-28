@@ -86,8 +86,9 @@ node server.js
 
 The server will be running on port `3000`.
 
+## Frontend Application
+The frontend application that communicates with this server and allows you to run experiments a lot more easily is available on [Blockchain Swarm Robotics Lab](https://github.com/PoI-Research/blockchain-swarm-robotics-lab).
 ## Decision Rules
-
 | Index | Decision Rule |
 |:----|:--------|
 |1 | DMVD|
@@ -102,6 +103,7 @@ The server will be running on port `3000`.
 | 2     | All Byzantine robots are black |
 | 3     | A half of Byzantine robots are black and the other half are white          |
 | 5     | All Byzantine robots are black          |
+
 ## Requirements:
 - ARGoS 3
 - ARGoS-epuck
