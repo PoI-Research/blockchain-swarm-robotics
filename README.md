@@ -24,9 +24,9 @@ sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 ```
 4. Source the setup_argos3 file
 ```bash
-source $SERVER/argos3-dist/bin/setup_argos3
+source $HOME/argos3-dist/bin/setup_argos3
 ```
-5. Install go 1.7.3.
+5. Install go lang (1.18.2).
 6. Add the following to your ~/.bashrc file: (We assume that you have placed the go binaries in the `home` directory.)
 ```bash
 export GOROOT=$HOME/go
@@ -40,7 +40,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 8. Run
 ```bash
-./create_sc.sh
+./scripts/create_sc.sh
 ```
 9. Install Ethereum and Solidity compiler.
 ```bash
@@ -50,18 +50,11 @@ sudo apt-get install solc
 ```
 10. Install npm.
 11. Install solc@0.4.8
-12. Build the repo:
-```bash
-mkdir build
-cd build
-cmake ..
-make
-```
-13. Add this to `~/.bashrc`:
+12. Add this to `~/.bashrc`:
 ```bash
 export PATH=$PATH:$SERVER/go-ethereum0/build/bin
 ```
-14. Install Redis by running the following commands:
+13. Install Redis by running the following commands:
 ```bash
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 
@@ -72,13 +65,24 @@ sudo apt-get install redis
 
 sudo apt-get install libhiredis-dev
 
-./install_redis.sh
+./scripts/install_redis.sh
 ```
-15. Run Redis by running:
+14. Run Redis by running:
 ```bash
 redis-server
 ```
-16. Run the server by running:
+15. Build the repo:
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+17. Build the server
+```bash
+npm install
+```
+18. Run the server by running:
 ```bash
 cd node-server
 node server.js
