@@ -36,7 +36,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 7. Run
 ```bash
-./create-geths.sh
+./scripts/create-geths.sh
 ```
 8. Run
 ```bash
